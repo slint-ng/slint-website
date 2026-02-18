@@ -9,4 +9,4 @@
 == Πηγές
 
 * https://sourceforge.net/projects/slint/[SourceForge: σελίδα έργου Slint]
-* https://slackel.sourceforge.io/for-mourning-didier-spaier/[Μνημονικό σημείωμα για τον Didier Spaier]
+* https://slackel.sourceforge.io/forum/viewtopic.php?t=838[Μνημονικό σημείωμα για τον Didier Spaier]

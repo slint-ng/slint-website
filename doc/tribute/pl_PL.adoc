@@ -9,4 +9,4 @@ Zespół Slint kontynuuje tę pracę w tym samym duchu: dostępność, tłumacze
 == Źródła
 
 * https://sourceforge.net/projects/slint/[SourceForge: strona projektu Slint]
-* https://slackel.sourceforge.io/for-mourning-didier-spaier/[Wpis pamięci o Didierze Spaierze]
+* https://slackel.sourceforge.io/forum/viewtopic.php?t=838[Wpis pamięci o Didierze Spaierze]

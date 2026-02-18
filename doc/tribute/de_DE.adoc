@@ -9,4 +9,4 @@ Das Slint-Team führt diese Arbeit im gleichen Geist fort: Barrierefreiheit, Üb
 == Quellen
 
 * https://sourceforge.net/projects/slint/[SourceForge: Slint-Projektseite]
-* https://slackel.sourceforge.io/for-mourning-didier-spaier/[Gedenknotiz für Didier Spaier]
+* https://slackel.sourceforge.io/forum/viewtopic.php?t=838[Gedenknotiz für Didier Spaier]

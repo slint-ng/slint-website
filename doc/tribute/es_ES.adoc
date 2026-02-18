@@ -9,4 +9,4 @@ El equipo de Slint continúa este trabajo con el mismo espíritu: accesibilidad,
 == Fuentes
 
 * https://sourceforge.net/projects/slint/[SourceForge: página del proyecto Slint]
-* https://slackel.sourceforge.io/for-mourning-didier-spaier/[Nota conmemorativa para Didier Spaier]
+* https://slackel.sourceforge.io/forum/viewtopic.php?t=838[Nota conmemorativa para Didier Spaier]

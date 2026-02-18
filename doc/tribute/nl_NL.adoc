@@ -9,4 +9,4 @@ Het Slint-team zet dit werk voort in dezelfde geest: toegankelijkheid, vertaling
 == Bronnen
 
 * https://sourceforge.net/projects/slint/[SourceForge: Slint-projectpagina]
-* https://slackel.sourceforge.io/for-mourning-didier-spaier/[Herdenkingsbericht voor Didier Spaier]
+* https://slackel.sourceforge.io/forum/viewtopic.php?t=838[Herdenkingsbericht voor Didier Spaier]

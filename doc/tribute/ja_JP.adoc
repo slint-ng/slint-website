@@ -9,4 +9,4 @@ Slint チームは、アクセシビリティ、翻訳、そして利用者へ�
 == 出典
 
 * https://sourceforge.net/projects/slint/[SourceForge: Slint プロジェクトページ]
-* https://slackel.sourceforge.io/for-mourning-didier-spaier/[Didier Spaier 追悼記事]
+* https://slackel.sourceforge.io/forum/viewtopic.php?t=838[Didier Spaier 追悼記事]

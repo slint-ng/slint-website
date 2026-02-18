@@ -9,4 +9,4 @@ Slint-teamet fortsätter detta arbete i samma anda: tillgänglighet, översättn
 == Källor
 
 * https://sourceforge.net/projects/slint/[SourceForge: projektsida för Slint]
-* https://slackel.sourceforge.io/for-mourning-didier-spaier/[Minnesnotis om Didier Spaier]
+* https://slackel.sourceforge.io/forum/viewtopic.php?t=838[Minnesnotis om Didier Spaier]

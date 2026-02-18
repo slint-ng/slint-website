@@ -9,4 +9,4 @@ Slint було засновано Дідьє Спаєром у 2013 році.
 == Джерела
 
 * https://sourceforge.net/projects/slint/[SourceForge: сторінка проєкту Slint]
-* https://slackel.sourceforge.io/for-mourning-didier-spaier/[Пам’ятна нотатка про Дідьє Спаєра]
+* https://slackel.sourceforge.io/forum/viewtopic.php?t=838[Пам’ятна нотатка про Дідьє Спаєра]
