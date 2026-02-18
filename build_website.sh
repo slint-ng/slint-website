@@ -76,6 +76,16 @@ patch_legacy_contacts() {
 	"$htmlFile"
 }
 
+patch_footer_github_link() {
+	htmlFile="$1"
+	[ -f "$htmlFile" ] || return 0
+	if grep -q 'GitHub: <a href="https://github.com/slint-ng">' "$htmlFile"; then
+		return 0
+	fi
+	sed -i '/<div id="footer-text">/a\
+GitHub: <a href="https://github.com/slint-ng">https://github.com/slint-ng</a><br>' "$htmlFile"
+}
+
 rm -rf "$CWD"/slint-translations
 if [ -d "$TRANSLATIONS_LOCAL_CLONE" ]; then
 	cp -r "$TRANSLATIONS_LOCAL_CLONE" "$CWD"/slint-translations || exit 1
@@ -421,6 +431,9 @@ copycss="$CWD"/css/slint.css -D "$WIP" \
 "$CWD"/doc/shell_and_bash_scripting.adoc -o "$WIP"/html/doc/shell_and_bash_scripting.html
 cp "$WIP"/html/doc/shell_and_bash_scripting.html "$WIP"/html/doc/shell_and_bash_scripts.html || exit 1
 cp -r "$CWD"/css "$WIP"/html
+find "$WIP"/html -type f -name "*.html" | while read -r htmlFile; do
+	patch_footer_github_link "$htmlFile"
+done
 rm -rf "$WEBSITE_DIR"
 mkdir -p "$WEBSITE_DIR"
 rsync --verbose -avP -H --delete-after "$CWD"/wip/html/ "$WEBSITE_DIR"/ || exit 1
