@@ -18,13 +18,13 @@ installera Slint paketet: det är redan gjort av installationsprogrammet.
 
 Ett Slint paket tillhandahålls för varje stödd Slackware version (Slackware
 13.37, Slackware 14.0 och Slackware 14.1) i katalogen
-https://slint.fr/packages[packages/]. Samma paket kan installeras på
+https://slint-ng.org/packages[packages/]. Samma paket kan installeras på
 32-bitars och 64-versioner. För att hämta, kontrollera och installera (eller
 uppgradera) "Slint paketet" (för Slackware 14.1 i detta exempel), gör så
 här:
 
 ----
-wget -r -l1 -np -nd -A slint-14.1*  https://slint.fr/packages/ # du får det senaste "Slint paketet" och dess tillhörande md5-fil
+wget -r -l1 -np -nd -A slint-14.1*  https://slint-ng.org/packages/ # du får det senaste "Slint paketet" och dess tillhörande md5-fil
 md5sum -c "Slint-14.1 * md5 # svaret ska vara "OK", annars är det hämtade paketet korrupt
 su # få rootbehörighet
 upgradepkg --install-new --reinstall slint-14.1*txz # detta kommando installerar eller uppgradera paketet
@@ -42,7 +42,7 @@ Vid skrivande stund, ingår följande språk: franska, tyska, polska,
 portugisiska (Brasilien), ryska, spanska (Latinamerika) och ukrainska.
 
 Vissa manualsidor är också översatt till andra språk, såsom anges i
-https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT].
+https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT].
 
 Tabellen nedan listar flerspråkiga administrationsverktyg och deras syften.
 

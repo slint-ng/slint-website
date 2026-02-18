@@ -58,9 +58,9 @@ Slackware, όπως και το Έργο Τεκμηρίωσης του Slackware
         <h3><span>Χρησιμοποιώντας USB εικόνες ISO για διεθνοποιημένους
 εγκαταστάτες</span></h3>
         <p>Πηγαίνετε στο υποκατάλογο του <a
-href="https://slint.fr/pub">https://slint.fr/pub</a> που αντιστοιχεί στην
+href="https://slint-ng.org/pub">https://slint-ng.org/pub</a> που αντιστοιχεί στην
 έκδοση για την οποία θέλετε ένα πρόγραμμα εγκατάστασης, για παράδειγμα <a
-href="https://slint.fr/pub/64-14.1">https://slint.fr/pub/64-14.1</a> για το
+href="https://slint-ng.org/pub/64-14.1">https://slint-ng.org/pub/64-14.1</a> για το
 Slackware64-14.1 και ακολουθήστε τις οδηγίες.
         </p>
         <p>Για να εγγράψετε ένα CD ή DVD του διεθνοποιημένου εγκαταστάτη για το
@@ -87,7 +87,7 @@ Slackware64-14.1:</p>
 δεν περιλαμβάνονται στις εικόνες ISO και USB. 
         </p>
 		<h3><span>Χρήση του πακέτου λογισμικού <a
-href="https://slint.fr/pub/slint-20140206.tar.xz">slint-[date].tar.xz</a></span></h3>
+href="https://slint-ng.org/pub/slint-20140206.tar.xz">slint-[date].tar.xz</a></span></h3>
 		<p>Θα χρειαστείτε, εκτός από το ίδιο πακέτο λογισμικού:</p>
 		<ol>
 			<li>Ένα πλήρη καθρέφτη της έκδοσης του Slackware που θέλετε να διεθνοποιήσετε:
@@ -99,9 +99,9 @@ href="https://slint.fr/pub/slint-20140206.tar.xz">slint-[date].tar.xz</a></span>
 χρησιμοποιήσετε σε ένα άλλο σύστημα Linux,
 			</li>
 		</ol>
-		<p>Κατεβάστε <a href="https://slint.fr/pub/slint-20140206.tar.xz">το πακέτο
+		<p>Κατεβάστε <a href="https://slint-ng.org/pub/slint-20140206.tar.xz">το πακέτο
 λογισμικού</a> και επίσης <a
-href="https://slint.fr/pub/slint-20140206.tar.xz.md5">το αρχείο ελέγχου md5
+href="https://slint-ng.org/pub/slint-20140206.tar.xz.md5">το αρχείο ελέγχου md5
 </a> και στη συνέχεια, πληκτρολογήστε την ακόλουθη εντολή:</p>
 		<ul>
 			<li>md5sum -c slint-[date].tar.xz.md5 # η έξοδος θα πρέπει να είναι "OK"</li>
@@ -136,9 +136,9 @@ slint-[ημερομηνία] </li>
 		<p>Μπορείτε να ζητήσετε να συμμετάσχετε ή να δημιουργήσετε μια ομάδα μετάφρασης
 στον ιστοχώρο του έργου στο <a
 href="https://www.transifex.com/projects/p/slint/">Transifex</a>, δείτε το
-αρχείο <a href = "https://slint.fr/pub/TRANSLATORS"> ΜΕΤΑΦΡΑΣΤΕΣ </a> για
+αρχείο <a href = "https://slint-ng.org/pub/TRANSLATORS"> ΜΕΤΑΦΡΑΣΤΕΣ </a> για
 λεπτομέρειες.</p>
-		<p>Αλλά πρώτα ρίξτε μια ματιά στα <a href="https://slint.fr/slint"> αρχεία
+		<p>Αλλά πρώτα ρίξτε μια ματιά στα <a href="https://slint-ng.org/slint"> αρχεία
 slint</a> για να καταλάβετε το είδος και την ποσότητα της εργασίας που
 απαιτείται.</p>
 		<h3><span>Μεταφραστές και σχολιαστές καταχωρημένοι στο Transifex</span></h3>
@@ -192,7 +192,7 @@ slint</a> για να καταλάβετε το είδος και την ποσ�
 		</table>
 		<p>Κάθε φορά που μια νέα γλώσσα θα είναι διαθέσιμη, θα πρέπει να προστεθεί στον
 εγκαταστάτη και μια νέα έκδοση θα πρέπει να παρέχεται σε <a
-href="https://slint.fr/pub">  αυτόν τον κατάλογο. </a></p>
+href="https://slint-ng.org/pub">  αυτόν τον κατάλογο. </a></p>
 		<h3><span>Ας συνεργαστούμε σαν ομάδα</span></h3>
 		<p>Οποιοδήποτε είδος συνεισφοράς ή συμμετοχή είναι ευπρόσδεκτα.</p>
 		<p>Επίσης, ο διεθνοποιημένος εγκαταστάτης θα μπορούσε να είναι χρήσιμος σε

@@ -57,9 +57,9 @@ bits),</li>
         <h3><span>Utilizando imágenes ISO para USB de los instaladores
 internacionalizados</span></h3>
         <p>Ingrese al subdirectorio <a
-href="https://slint.fr/pub">https://slint.fr/pub</a> correspondiente a la
+href="https://slint-ng.org/pub">https://slint-ng.org/pub</a> correspondiente a la
 edición para la cual desea un instalador, por ejemplo <a
-href="https://slint.fr/pub/64-14.1">https://slint.fr/pub/64-14.1</a> para
+href="https://slint-ng.org/pub/64-14.1">https://slint-ng.org/pub/64-14.1</a> para
 Slackware64-14.1 y siga las instrucciones.
         </p>
         <p>Para quemar un CD o DVD del instalador internacionalizado para
@@ -86,7 +86,7 @@ de Slackware o un espejo local, ya que estos paquetes no están incluidos en
 las imágenes ISO o USB. 
         </p>
 		<h3><span>Uso del paquete de software <a
-href="https://slint.fr/pub/slint-20140206.tar.xz">slint-[fecha].tar.xz</a></span></h3>
+href="https://slint-ng.org/pub/slint-20140206.tar.xz">slint-[fecha].tar.xz</a></span></h3>
 		<p>Además del paquete de software, necesitará:</p>
 		<ol>
 			<li>Un espejo completo de la edición de Slackware que desea internacionalizar:
@@ -98,8 +98,8 @@ instalación completa de Slackware es preferida, pero es posible descargar
 slint y utilizarlo en otro sistema Linux,
 			</li>
 		</ol>
-		<p>Descargue <a href="https://slint.fr/pub/slint-20140206.tar.xz">el paquete de
-software</a>, y <a href="https://slint.fr/pub/slint-20140206.tar.xz.md5">el
+		<p>Descargue <a href="https://slint-ng.org/pub/slint-20140206.tar.xz">el paquete de
+software</a>, y <a href="https://slint-ng.org/pub/slint-20140206.tar.xz.md5">el
 archivo de verificación md5</a> también, luego escriba el siguiente comando:</p>
 		<ul>
 			<li>md5sum -c slint-[fecha].tar.xz.md5 # el resultado debe ser "OK"</li>
@@ -133,9 +133,9 @@ para la traducción en otros lenguajes.</p>
 		<p>Puede hacer una solicitud para unirse o crear un equipo de traducción en el
 sitio del proyecto en <a
 href="https://www.transifex.com/projects/p/slint/">Transifex</a>, vea el
-archivo <a href="https://slint.fr/pub/TRANSLATORS">TRANSLATORS</a> para los
+archivo <a href="https://slint-ng.org/pub/TRANSLATORS">TRANSLATORS</a> para los
 detalles.</p>
-		<p>Pero primero revise los <a href="https://slint.fr/slint">archivos de
+		<p>Pero primero revise los <a href="https://slint-ng.org/slint">archivos de
 slint</a> para que se haga una idea de la clase y cantidad de trabajo
 necesario.</p>
 		<h3><span>Traductores y correctores registrados en Transifex</span></h3>
@@ -188,7 +188,7 @@ necesario.</p>
 			<tr><td>Kemal Ökmen</td><td>Turco</td><td>tr_TR</td></tr>
 		</table>
 		<p>Siempre que un nuevo lenguajes esté disponible, será agregado al instalador
-y una nueva versión estará disponible en <a href="https://slint.fr/pub">este
+y una nueva versión estará disponible en <a href="https://slint-ng.org/pub">este
 directorio.</a></p>
 		<h3><span>Hagamos un equipo</span></h3>
 		<p>Cualquier clase de contribución o participación es bienvenida.</p>

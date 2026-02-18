@@ -1,7 +1,7 @@
 == Дневник измена
 
 NOTE: Дневник измена за промене извршене пре 27.09.2014. се налази
-https://slint.fr/pub/slint-history/Changelog.txt[овде].
+https://slint-ng.org/pub/slint-history/Changelog.txt[овде].
 
 [format="psv", options="header,autowidth"]
 |========

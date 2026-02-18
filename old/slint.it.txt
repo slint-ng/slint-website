@@ -42,7 +42,7 @@ permettono di fare degli installatori bootabili:
 
 * La url http://sourceforge.net/projects/slint/files/[DVD + USB full ISO
   images] contiene tutto quello ch ti serve per installare Slackware.
-* La url https://slint.fr/installers[CD + USB small ISO images] ha bisogno di
+* La url https://slint-ng.org/installers[CD + USB small ISO images] ha bisogno di
   essere completate per mezzo di un supporto contenente i pacchetti di
   Slackware, per esempio un DVD di Slackware.
 
@@ -51,11 +51,11 @@ a scaricare l'immagine, metterla su un DVD o una chiavetta USB e usarla.
 
 Un terminale Braille può anche essere usato per installare e poi pilotare il
 sistema. Le istruzioni per l'uso sono disponibili in
-https://slint.fr/docs/README_BRLTTY.
+https://slint-ng.org/docs/README_BRLTTY.
 
 .Internationalizza la tua Slackware genuina o aggiorna i programmi di traduzione (re)installando uno 'Slint package'
 I pacchetti di Slint sono localizzati nella cartella
-https://slint.fr/packages[packages/]. Guarda la pagina
+https://slint-ng.org/packages[packages/]. Guarda la pagina
 link:package.html[Slint package] per sapere come installare uno Slint
 package - pacchetto di Slint - per la tua versione di Slackware e cosa vuoi
 avere per i tuoi soldi :-)

@@ -1,7 +1,7 @@
 # Written by Didier Spaier 2014
 # Public domain
 # this file is intended to be used with an Apache server, version 2.2 or 2.4.
-# This .htaccess file is at the root of slint.fr website.
+# This .htaccess file is at the root of slint-ng.org website.
 # Its goal is to send pages in language preferred by the user:
 # * in the language chosen by clicking on an hyper link that displays a
 #   two characters language code
@@ -26,10 +26,10 @@ ExpiresByType text/html A1
 
 # Set the language when user clicks on a language link, recording it in a cookie
 RewriteCond %{THE_REQUEST} .*/(bs|de|el|en|es|fr|id|it|nl|pl|pt_BR|pt_PT|ru|tr|uk|zh_CN)/.*html
-RewriteRule ([a-z]*.html) - [L,CO=lang:%1:slint.fr]
+RewriteRule ([a-z]*.html) - [L,CO=lang:%1:slint-ng.org]
 
 # Send localized page corresponding to language setting
-RewriteCond %{REQUEST_URI} !^/slint.fr/(bs|de|el|en|es|fr|id|it|nl|pl|pt_BR|pt_PT|ru|tr|uk|zh_CN)/(.*$)
+RewriteCond %{REQUEST_URI} !^/slint-ng.org/(bs|de|el|en|es|fr|id|it|nl|pl|pt_BR|pt_PT|ru|tr|uk|zh_CN)/(.*$)
 RewriteCond %{THE_REQUEST} .*html
 RewriteCond %{HTTP_COOKIE} lang=(bs|de|el|en|es|fr|id|it|nl|pl|pt|ru|tr|uk)
 # We'll skip the next rule if this one is applied, as language chosen by user
@@ -38,7 +38,7 @@ RewriteRule ([a-z]*.html) %1/$1 [S=1]
 
 # If the language is not set, but a preferred language is set and we have the
 # requested page in that language, send it
-RewriteCond %{REQUEST_URI} !^/slint.fr/(bs|de|el|en|es|fr|id|it|nl|pl|pt_BR|pt_PT|ru|tr|uk|zh_CN)/.*$
+RewriteCond %{REQUEST_URI} !^/slint-ng.org/(bs|de|el|en|es|fr|id|it|nl|pl|pt_BR|pt_PT|ru|tr|uk|zh_CN)/.*$
 RewriteCond %{THE_REQUEST} .*html
 RewriteCond %{HTTP_COOKIE} !lang=([^;]+) [NC]
 # The condition pattern below is of course perfectible, to say it kindly.

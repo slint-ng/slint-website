@@ -149,7 +149,7 @@ Breite.</p></div>
 <div class="sectionbody">
 <div class="paragraph"><p>Dieses komprimierte Paket enthält alles Nötige um Slint-Produkte wie
 Werkzeuge zu erstellen die den Slint-Mitwirkenden dienen. Das Archiv heißt
-slint-[Datum].tar.xz und ist im Verzeichnis <a href="https://slint.fr/pub">pub/</a>
+slint-[Datum].tar.xz und ist im Verzeichnis <a href="https://slint-ng.org/pub">pub/</a>
 verfügbar.</p></div>
 <div class="paragraph"><p>Um es zu entpacken, geben Sie folgendes ein:</p></div>
 <div class="listingblock">
@@ -196,7 +196,7 @@ cellspacing="0" cellpadding="4">
 </tr>
 <tr>
 <td align="left" valign="top"><p class="table">tools_for_translators/generate_man_pages</p></td>
-<td align="left" valign="top"><p class="table">Erstellen lokalisierter Handbuchseiten für spezielle Werkzeuge von Slackware. Erlaubt das Prüfen von PO-Dateien. Die Benutzung dieses Skripts erfordert die Installation des Pakets po4a, zu finden unter <a href="https://slint.fr/packages/extra">extra/</a> .</p></td>
+<td align="left" valign="top"><p class="table">Erstellen lokalisierter Handbuchseiten für spezielle Werkzeuge von Slackware. Erlaubt das Prüfen von PO-Dateien. Die Benutzung dieses Skripts erfordert die Installation des Pakets po4a, zu finden unter <a href="https://slint-ng.org/packages/extra">extra/</a> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -406,12 +406,12 @@ Seite oberhalb vom Quelltext) und den dann bearbeiten.</td>
 können Sie überprüfen, indem Sie einfach folgendes eingeben:</p></div>
 <div class="listingblock">
 <div class="content">
-<pre><code>lftp -c "mirror https://slint.fr/website/"
+<pre><code>lftp -c "mirror https://slint-ng.org/website/"
 # Übersetzung bei Tansifex herunterladen (wir nennen sie &lt;translation.txt&gt;) und ins gerade erstellte Verzeichnis website/ kopieren
 cd website
 CONFIG_FILE=slint.conf.en
 # Optional, wenn die Kopfleiste und das übersetzte Menü bereits auf die Webseite hoch geladen wurden:
-wget https://slint.fr/slint.conf.ll; CONFIG_FILE=slint.conf.ll # ersetzen Sie "ll" mit dem Code für Ihre Sprache (zwei Buchstaben)
+wget https://slint-ng.org/slint.conf.ll; CONFIG_FILE=slint.conf.ll # ersetzen Sie "ll" mit dem Code für Ihre Sprache (zwei Buchstaben)
 # erstellen Sie dann die Webseite
 asciidoc -b xhtml11 -a icons -f $CONFIG_FILE &lt;translation.txt&gt; # dieser Befehl erzeugt &lt;translation.html&gt;
 firefox &lt;translation.html&gt; &amp;</code></pre>

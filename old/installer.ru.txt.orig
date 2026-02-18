@@ -7,13 +7,13 @@
 
 A 'Braille terminal' can also be used to install then pilot the
 system. Instructions for use are available in
-https://slint.fr/docs/README_BRLTTY.
+https://slint-ng.org/docs/README_BRLTTY.
 
 == Загрузка и проверка образа ISO установщика
 Доступны образы ISO двух размеров
 
 * http://sourceforge.net/projects/slint/files/[Полные DVD + USB образы ISO]
-* https://slint.fr/installers[Компактные CD + USB образы ISO], требующие
+* https://slint-ng.org/installers[Компактные CD + USB образы ISO], требующие
   носитель с пакетами Slackware, например, DVD Slackware.
 
 Для загрузки полного образа ISO сперва щёлкните по номеру версии, например,

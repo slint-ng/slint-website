@@ -43,7 +43,7 @@ eines bootfähigen Installers:
 * Die großen http://sourceforge.net/projects/slint/files/[DVD- +
   USB-ISO-Abbilder] beinhalten alles Notwendige für die Installation von
   Slackware.
-* Die kleinen https://slint.fr/installers[CD- + USB-ISO-Abbilder] müssen durch
+* Die kleinen https://slint-ng.org/installers[CD- + USB-ISO-Abbilder] müssen durch
   ein Medium mit den Slackwarepaketen ergänzt werden, wie z.B. die
   Slackware-DVD.
 
@@ -53,11 +53,11 @@ link:installer.html[Slint installer].
 
 Zum installieren und steuern des Systems kann auch ein 'Braille terminal'
 verwendet werden. Eine Bedienungsanleitung ist unter
-https://slint.fr/docs/README_BRLTTY verfügbar.
+https://slint-ng.org/docs/README_BRLTTY verfügbar.
 
 .Nachträgliche Internationalisierung von Slackware oder Upgrade der Administrationwerkzeuge mit der (Neu-)Installation des 'Slint-Pakets'
 Slint-Pakete liegen im Verzeichnis
-https://slint.fr/packages[packages/]. Besuchen Sie
+https://slint-ng.org/packages[packages/]. Besuchen Sie
 link:package.html[Slint-Paket] um zu erfahren wie Sie ein Slint-Paket in
 Ihrer Slackware-Edition installieren und was sie für Ihr Geld bekommen :-)
 

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: slintwebsite\n"
 "POT-Creation-Date: 2015-01-31 18:18+0100\n"
 "PO-Revision-Date: 2015-01-31 17:26+0000\n"
-"Last-Translator: Didier Spaier <didier@slint.fr>\n"
+"Last-Translator: Didier Spaier <didier@slint-ng.org>\n"
 "Language-Team: Indonesian (Indonesia) (http://www.transifex.com/projects/p/slintwebsite/language/id_ID/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #.  Before translating this file, please read instructions about it in
-#. https://slint.fr/contribute.html and https://slint.fr/tools.html. Copy this
+#. https://slint-ng.org/contribute.html and https://slint-ng.org/tools.html. Copy this
 #. comment verbatim in your translation or just the leading // to tell it's a
 #. comment that won't be included in generated html file.
 #. type: Title =
@@ -65,20 +65,20 @@ msgstr "Jika Anda baru saja menggunakan installer Slint, tidak perlu menginstall
 msgid ""
 "A Slint package is provided for each supported Slackware edition (Slackware "
 "13.37, Slackware 14.0 and Slackware 14.1) in directory "
-"https://slint.fr/packages[packages/]. The same package can be installed on 32"
+"https://slint-ng.org/packages[packages/]. The same package can be installed on 32"
 " bit and 64 versions. To get, check and install (or upgrade) 'Slint package'"
 " (for Slackware 14.1 in this example), do this:"
-msgstr "Paket Slint disediakan untuk setiap edisi Slackware yang didukung (Slackware 13.37, Slackware 14.0 dan Slackware 14.1) pada direktori https://slint.fr/packages[packages/]. Paket yang sama bisa diinstall pada versi 32 dan 64 bit. Untuk mendapatkan, memeriksa, dan menginstall (atau upgrade) 'paket Slint' (untuk Slackware 14.1 pada contoh ini), lakukan:"
+msgstr "Paket Slint disediakan untuk setiap edisi Slackware yang didukung (Slackware 13.37, Slackware 14.0 dan Slackware 14.1) pada direktori https://slint-ng.org/packages[packages/]. Paket yang sama bisa diinstall pada versi 32 dan 64 bit. Untuk mendapatkan, memeriksa, dan menginstall (atau upgrade) 'paket Slint' (untuk Slackware 14.1 pada contoh ini), lakukan:"
 
 #. type: delimited block -
 #: package.en.txt:22
 #, no-wrap
 msgid ""
-"wget -r -l1 -np -nd -A slint-14.1*  https://slint.fr/packages/ # you will get the most recent Slint package and its associated md5 file\n"
+"wget -r -l1 -np -nd -A slint-14.1*  https://slint-ng.org/packages/ # you will get the most recent Slint package and its associated md5 file\n"
 "md5sum -c slint-14.1*md5 # answer should be \"OK\", else downloaded package is corrupt\n"
 "su # get root's privileges\n"
 "upgradepkg --install-new --reinstall slint-14.1*txz # this command installs or upgrade the package\n"
-msgstr "wget -r -l1 -np -nd -A slint-14.1*  https://slint.fr/packages/ # Anda akan mendapatkan paket Slint terbaru dan juga berkas md5 yang relevan\nmd5sum -c slint-14.1*md5 # jawaban harus bernilai \"OK\", jika tidak paket yang didownload rusak\nsu # mendapatkan hak akses root\nupgradepkg --install-new --reinstall slint-14.1*txz # perintah ini menginstall atau mengupgrade paket\n"
+msgstr "wget -r -l1 -np -nd -A slint-14.1*  https://slint-ng.org/packages/ # Anda akan mendapatkan paket Slint terbaru dan juga berkas md5 yang relevan\nmd5sum -c slint-14.1*md5 # jawaban harus bernilai \"OK\", jika tidak paket yang didownload rusak\nsu # mendapatkan hak akses root\nupgradepkg --install-new --reinstall slint-14.1*txz # perintah ini menginstall atau mengupgrade paket\n"
 
 #. type: Plain text
 #: package.en.txt:26
@@ -110,8 +110,8 @@ msgstr "Saat ini ditulis, bahasa berikut sudah tersedia: Perancis, Jerman, Polan
 #: package.en.txt:35
 msgid ""
 "Some manual pages are also translated to other languages, as indicated in "
-"https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]."
-msgstr "Beberapa halaman manual juga diterjemahkan pada bahasa lain, seperti yang tertulis pada https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]."
+"https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]."
+msgstr "Beberapa halaman manual juga diterjemahkan pada bahasa lain, seperti yang tertulis pada https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]."
 
 #. type: Plain text
 #: package.en.txt:37

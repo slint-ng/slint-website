@@ -52,10 +52,10 @@ ya da DVD'ye yazılacak ISO kalıbı ve USB'ye yazılacak kalıp.</li>
 Amerika) ve Ukraynaca yerelleştirme.</li>
 		</ul>
         <h3><span>Yerelleştirilmiş USB ISO kalıbı kurulum dosyaları kullanımı</span></h3>
-        <p><a href="https://slint.fr/pub">https://slint.fr/pub</a> adresinde kurulum
+        <p><a href="https://slint-ng.org/pub">https://slint-ng.org/pub</a> adresinde kurulum
 dosyasını istediğiniz sürümün ilgili bir altdizinine girin, örneğin
 Slackware64-14.1 için <a
-href="https://slint.fr/pub/64-14.1">https://slint.fr/pub/64-14.1</a>, ve
+href="https://slint-ng.org/pub/64-14.1">https://slint-ng.org/pub/64-14.1</a>, ve
 yönergeleri takip edin.
         </p>
         <p>Slackware64-14.1 için yerelleştirilmiş CD veya DVD oluşturma:</p>
@@ -81,7 +81,7 @@ ortamına, örneğin bir Slackware DVD'si veya yerel bir yansına, ihtiyacınız
 olacak. 
         </p>
 		<h3><span><a
-href="https://slint.fr/pub/slint-20140206.tar.xz">slint-[gün].tar.xz</a>
+href="https://slint-ng.org/pub/slint-20140206.tar.xz">slint-[gün].tar.xz</a>
 paketinin kullanımı</span></h3>
 		<p>Yazılım paketinin kendisinin dışında ihtiyacınız olanlar:</p>
 		<ol>
@@ -93,8 +93,8 @@ dağıtımı. Tabii ki tam yüklü bir Slackware tercih edilir, fakat slint'i
 indirebilir ve başka bir Linux sistemde kullanabilirsiniz,
 			</li>
 		</ol>
-		<p><a href="https://slint.fr/pub/slint-20140206.tar.xz">Yazılım paketi</a>ni, ve
-<a href="https://slint.fr/pub/slint-20140206.tar.xz.md5">md5 kontrol
+		<p><a href="https://slint-ng.org/pub/slint-20140206.tar.xz">Yazılım paketi</a>ni, ve
+<a href="https://slint-ng.org/pub/slint-20140206.tar.xz.md5">md5 kontrol
 dosyası</a>nı indirin, sonra şu komutu girin:</p>
 		<ul>
 			<li>md5sum -c slint-[tarih].tar.xz.md5 # çıktı "OK" olmalı</li>
@@ -126,10 +126,10 @@ neden listelenmediğini merak ediyorsanız, bunu daima içerir :-)
 		<p>Projenini <a
 href="https://www.transifex.com/projects/p/slint/">Transifex</a> alanındaki
 takıma katılabilirsiniz ya da bir çeviri takımı kurmak isteyebilirsiniz,
-detaylar için <a href="https://slint.fr/pub/TRANSLATORS">TRANSLATORS</a>
+detaylar için <a href="https://slint-ng.org/pub/TRANSLATORS">TRANSLATORS</a>
 dosyasına bakınız.</p>
 		<p>Ama önce iş yükü miktarı ve çeşidini anlamak için <a
-href="https://slint.fr/slint">slint dosyaları</a>na bakınız.</p>
+href="https://slint-ng.org/slint">slint dosyaları</a>na bakınız.</p>
 		<h3><span>Transifex'e kayıtlı çevirmenler ve gözden geçirenler</span></h3>
 		<table border="1">
 			<tr><th>Çevirmen</th><th>Dil</th><th>Yerel</th></tr>
@@ -179,7 +179,7 @@ href="https://slint.fr/slint">slint dosyaları</a>na bakınız.</p>
 			<tr><td>Koljan1970</td><td>Ukraynaca</td><td>uk_UA</td></tr>
 			<tr><td>Kemal Ökmen</td><td>Türkçe</td><td>tr_TR</td></tr>
 		</table>
-		<p>Yeni bir dil uygun olduğunda  <a href="https://slint.fr/pub">buraya</a>
+		<p>Yeni bir dil uygun olduğunda  <a href="https://slint-ng.org/pub">buraya</a>
 kurulum dosyası ve yeni sürüm eklenecektir.</p>
 		<h3><span>Haydi takım kurun</span></h3>
 		<p>Herhangi bir katkı ya da ilgi memnuniyetle karşılanır.</p>

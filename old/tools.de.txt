@@ -85,7 +85,7 @@ Breite.
 
 Dieses komprimierte Paket enthält alles Nötige um Slint-Produkte wie
 Werkzeuge zu erstellen die den Slint-Mitwirkenden dienen. Das Archiv heißt
-slint-[Datum].tar.xz und ist im Verzeichnis https://slint.fr/pub[pub/]
+slint-[Datum].tar.xz und ist im Verzeichnis https://slint-ng.org/pub[pub/]
 verfügbar.
 
 Um es zu entpacken, geben Sie folgendes ein:
@@ -108,7 +108,7 @@ Bezug zu diesem Verzeichnis.
 |build/slintLocales |Erstellen eines Pakets, das alle aktuellen Übersetzungen von Slackware-Skripts enthält, inklusive des Slint-Installers (alle Versionen) und Werkzeuge für Slackware.
 |tools_for_translators/toolbox.sh |Diese Werkzeugkiste verwaltet Übersetzungen und Texte in der Datei slackware.pot.
 |tools_for_translators/toolbox_slint_sh |Diese Werkzeugkiste verwaltet Übersetzungen und Textausgaben des Skripts slint.sh .
-|tools_for_translators/generate_man_pages |Erstellen lokalisierter Handbuchseiten für spezielle Werkzeuge von Slackware. Erlaubt das Prüfen von PO-Dateien. Die Benutzung dieses Skripts erfordert die Installation des Pakets po4a, zu finden unter https://slint.fr/packages/extra[extra/] .
+|tools_for_translators/generate_man_pages |Erstellen lokalisierter Handbuchseiten für spezielle Werkzeuge von Slackware. Erlaubt das Prüfen von PO-Dateien. Die Benutzung dieses Skripts erfordert die Installation des Pakets po4a, zu finden unter https://slint-ng.org/packages/extra[extra/] .
 |========
  
 === Anleitung zum Prüfen der Übersetzung des Slackware-Installers und der Skripts für die Administration
@@ -281,12 +281,12 @@ Seite oberhalb vom Quelltext) und den dann bearbeiten.
 Die Ausgabe der aus Ihrer übersetzten Quelltextdatei erzeugten Webseite
 können Sie überprüfen, indem Sie einfach folgendes eingeben:
 ----
-lftp -c "mirror https://slint.fr/website/"
+lftp -c "mirror https://slint-ng.org/website/"
 # Übersetzung bei Tansifex herunterladen (wir nennen sie <translation.txt>) und ins gerade erstellte Verzeichnis website/ kopieren
 cd website
 CONFIG_FILE=slint.conf.en
 # Optional, wenn die Kopfleiste und das übersetzte Menü bereits auf die Webseite hoch geladen wurden:
-wget https://slint.fr/slint.conf.ll; CONFIG_FILE=slint.conf.ll # ersetzen Sie "ll" mit dem Code für Ihre Sprache (zwei Buchstaben)
+wget https://slint-ng.org/slint.conf.ll; CONFIG_FILE=slint.conf.ll # ersetzen Sie "ll" mit dem Code für Ihre Sprache (zwei Buchstaben)
 # erstellen Sie dann die Webseite
 asciidoc -b xhtml11 -a icons -f $CONFIG_FILE <translation.txt> # dieser Befehl erzeugt <translation.html>
 firefox <translation.html> &

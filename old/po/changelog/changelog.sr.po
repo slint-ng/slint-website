@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: slintwebsite\n"
 "POT-Creation-Date: 2015-01-30 22:49+0100\n"
 "PO-Revision-Date: 2015-07-22 23:24+0000\n"
-"Last-Translator: Didier Spaier <didier@slint.fr>\n"
+"Last-Translator: Didier Spaier <didier@slint-ng.org>\n"
 "Language-Team: Serbian (Serbia) (http://www.transifex.com/projects/p/slintwebsite/language/sr_RS/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. type: Title ==
-#: /home/didier/slint.fr/changelog.en.txt:1
+#: /home/didier/slint-ng.org/changelog.en.txt:1
 #, no-wrap
 msgid "Changelog"
 msgstr "Дневник измена"
 
 #. type: Plain text
-#: /home/didier/slint.fr/changelog.en.txt:4
+#: /home/didier/slint-ng.org/changelog.en.txt:4
 msgid ""
 "The Changelog retracing changes that occurred before 27/09/2014 is "
-"https://slint.fr/pub/slint-history/Changelog.txt[here]."
-msgstr "Дневник измена за промене извршене пре 27.09.2014. се налази https://slint.fr/pub/slint-history/Changelog.txt[овде]."
+"https://slint-ng.org/pub/slint-history/Changelog.txt[here]."
+msgstr "Дневник измена за промене извршене пре 27.09.2014. се налази https://slint-ng.org/pub/slint-history/Changelog.txt[овде]."
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:14
+#: /home/didier/slint-ng.org/changelog.en.txt:14
 #, no-wrap
 msgid ""
 "|Date|Changes\n"
@@ -43,7 +43,7 @@ msgid ""
 msgstr "|Датум|Промене\n|27.09.2014|\nКориснику се препоручује да креира обичне корисничке налоге на крају инсталације.\n\"Пуне\" ISO слике (које садрже све пакете који долазе на Слеквер DVD ISO слици уз додатак Slint инсталера) су доступне http://sourceforge.net/projects/slint/files/[одавде] +\nСада је доступан и Холандски, захваљујући Дику Ленхеру (Dik Leenheer) и Ерику Хамелерсу (Eric Hameleers).+\nИнсталери и пакети сада инсталирају документацију у /usr/doc/slint-<version>-<date>, укључујући Slint-HOWTO.txt и скрипту reinstall-slackware-packages.sh. +\nУпутство како да изаберете језик за инсталацију је сада доступно директно на поздравном екрану инсталера.\n"
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:21
+#: /home/didier/slint-ng.org/changelog.en.txt:21
 #, no-wrap
 msgid ""
 "|19/12/2014|\n"

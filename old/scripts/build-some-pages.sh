@@ -2,9 +2,9 @@
 # This script is intended to build only a few wen pages, intead of re-generating
 # the whole website, as does buid-slint-website.sh.
 # The pages built are those for which a source text file is found in
-# ~/slint.fr/wip_txt
+# ~/slint-ng.org/wip_txt
 #  
-LOCAL_MIRROR=~/slint.fr
+LOCAL_MIRROR=~/slint-ng.org
 write_updated() {
   # CONF_FILE will be used as argument of the -f option of asciidoc when
   #  building the web page. It includes the left hand menu, localized if
@@ -43,7 +43,8 @@ for updated in `find wip_txt -name "*.txt" -exec basename '{}' \;`; do
       if [ ! "`ls ${page}*txt|wc -l`" = "1" ]; then
         # We build the list of available languages for that page in the top menu. 
         echo -n "|" > wip/languages
-        for i in `ls ${page}*txt`; do
+        for i in "${page}"*txt; do
+          [ -e "$i" ] || continue
           ll=`echo $i|awk -F"." '{print $2}'`
           echo -n " <a href=\"../$ll/${page}.html\">$ll</a> |" >> wip/languages
         done
@@ -71,7 +72,6 @@ for updated in `find wip_txt -name "*.txt" -exec basename '{}' \;`; do
   fi
 done
 )
-
 
 
 

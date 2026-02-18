@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #.  Before translating this file, please read instructions about it in
-#. https://slint.fr/contribute.html and https://slint.fr/tools.html. Copy this
+#. https://slint-ng.org/contribute.html and https://slint-ng.org/tools.html. Copy this
 #. comment verbatim in your translation or just the leading // to tell it's a
 #. comment that won't be included in generated html file.
 #. type: Title =
@@ -67,20 +67,20 @@ msgstr "Si tu usava solmente le installator de Slint, il non ha necessitate inst
 msgid ""
 "A Slint package is provided for each supported Slackware edition (Slackware "
 "13.37, Slackware 14.0 and Slackware 14.1) in directory "
-"https://slint.fr/packages[packages/]. The same package can be installed on 32"
+"https://slint-ng.org/packages[packages/]. The same package can be installed on 32"
 " bit and 64 versions. To get, check and install (or upgrade) 'Slint package'"
 " (for Slackware 14.1 in this example), do this:"
-msgstr "Un pacchetto de Slint es fornite per cata edition supportate de Slackware (Slackware 13.37, Slackware 14.0 e Slackware 14.1) in directorio https://slint.fr/packages[packages/]. Le mesme pacchetto pote esser installate sur versiones de  32 e 64 bit. Pro obtener, verificar e installar (o actualisar) 'Pacchetto de Slint' (pro Slackware 14.1 in iste exemplo), face isto:"
+msgstr "Un pacchetto de Slint es fornite per cata edition supportate de Slackware (Slackware 13.37, Slackware 14.0 e Slackware 14.1) in directorio https://slint-ng.org/packages[packages/]. Le mesme pacchetto pote esser installate sur versiones de  32 e 64 bit. Pro obtener, verificar e installar (o actualisar) 'Pacchetto de Slint' (pro Slackware 14.1 in iste exemplo), face isto:"
 
 #. type: delimited block -
 #: package.en.txt:22
 #, no-wrap
 msgid ""
-"wget -r -l1 -np -nd -A slint-14.1*  https://slint.fr/packages/ # you will get the most recent Slint package and its associated md5 file\n"
+"wget -r -l1 -np -nd -A slint-14.1*  https://slint-ng.org/packages/ # you will get the most recent Slint package and its associated md5 file\n"
 "md5sum -c slint-14.1*md5 # answer should be \"OK\", else downloaded package is corrupt\n"
 "su # get root's privileges\n"
 "upgradepkg --install-new --reinstall slint-14.1*txz # this command installs or upgrade the package\n"
-msgstr "wget -r -l1 -np -nd -A slint-14.1*  https://slint.fr/packages/ # tu obtenera le plus recente pacchetto de Slint e su associate file md5\nmd5sum -c slint-14.1*md5 # responsa deberea esser \"OK\", alteremente le pacchetto discargate es corrumpite\nsu # obtene privilegios de radice o root\nupgradepkg --install-new --reinstall slint-14.1*txz # iste commando installa o actualisa le pacchetto\n"
+msgstr "wget -r -l1 -np -nd -A slint-14.1*  https://slint-ng.org/packages/ # tu obtenera le plus recente pacchetto de Slint e su associate file md5\nmd5sum -c slint-14.1*md5 # responsa deberea esser \"OK\", alteremente le pacchetto discargate es corrumpite\nsu # obtene privilegios de radice o root\nupgradepkg --install-new --reinstall slint-14.1*txz # iste commando installa o actualisa le pacchetto\n"
 
 #. type: Plain text
 #: package.en.txt:26
@@ -112,8 +112,8 @@ msgstr "Al momento que on scribe, le sequente linguages es includite: Francese, 
 #: package.en.txt:35
 msgid ""
 "Some manual pages are also translated to other languages, as indicated in "
-"https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]."
-msgstr "Alcun paginas de manual es anque traducite in altere linguages, como indicate in https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]."
+"https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]."
+msgstr "Alcun paginas de manual es anque traducite in altere linguages, como indicate in https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]."
 
 #. type: Plain text
 #: package.en.txt:37

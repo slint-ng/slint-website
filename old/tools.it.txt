@@ -79,7 +79,7 @@ come per Lokalize, scegli un font serif a larghezza fissa.
 Questo archivio compresso include tutto cio' che è necessario per creare i
 prodotti slint in aggiunta agli strumenti previsti per i collaboratori. Il
 suo nome è slint-[date].tar.xz e si trova nella cartella
-https://slint.fr/pub[pub/].
+https://slint-ng.org/pub[pub/].
 
 Per estrarlo dall'archivio, scrivi:
 
@@ -100,7 +100,7 @@ collaboratori. Tutti i path indicati sono relativi a quella cartella.
 |build/slintLocales |Crea un pacchetto che include tutte le traduzioni aggiornate degli script di Slackware inclusi negli installatori Slint (tutte le versioni) o negli strumenti previsti per Slackware.
 |tools_for_translators/toolbox.sh | Gestisce le traduzioni dei messaggi radunati in slackware.pot.
 |tools_for_translators/toolbox_slint_sh |Gestisce le traduzioni dei messaggi di output dello script slint.sh .
-|tools_for_translators/generate_man_pages |Genera pagine del manuale locali per alcuni strumenti previsti per Slackware. Questo permette di controllare i file PO. Per usare questo script bisogna aver installato il pacchetto po4a, disponibile nella cartella https://slint.fr/packages/extra[extra/].
+|tools_for_translators/generate_man_pages |Genera pagine del manuale locali per alcuni strumenti previsti per Slackware. Questo permette di controllare i file PO. Per usare questo script bisogna aver installato il pacchetto po4a, disponibile nella cartella https://slint-ng.org/packages/extra[extra/].
 |========
  
 === Come controllare le traduzioni per l'installatore di Slackware e per gli script di amministrazione
@@ -271,12 +271,12 @@ destra del testo originale) e poi modificalo.
 Puoi facilmente controllare la presentazione delle pagine web generate dalla
 tua traduzione di un file di testo sorgente. Fai cosi:
 ----
-lftp -c "mirror https://slint.fr/website/"
+lftp -c "mirror https://slint-ng.org/website/"
 # Scarica la tua traduzione da Transifex (la chiameremo <translation.txt>) nella cartella website/ appena creata
 cd website
 CONFIG_FILE=slint.conf.en
 # Oppure, se il titolo in alto e il menu sono già stati tradotti nella tua lingua e caricati sul sito:
-wget https://slint.fr/slint.conf.ll; CONFIG_FILE=slint.conf.ll # sostituisci "ll" con il codice della tua lingua (due lettere)
+wget https://slint-ng.org/slint.conf.ll; CONFIG_FILE=slint.conf.ll # sostituisci "ll" con il codice della tua lingua (due lettere)
 # poi genera la pagina web
 asciidoc -b xhtml11 -a icons -f $CONFIG_FILE <translation.txt> # questo comando genera <translation.html>
 firefox <translation.html> &

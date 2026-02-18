@@ -1,0 +1,12 @@
+== Pamięci Didiera Spaiera
+
+Slint został założony przez Didiera Spaiera w 2013 roku.
+
+Utrzymywał i prowadził dystrybucję aż do swojej śmierci 14 stycznia 2026 roku.
+
+Zespół Slint kontynuuje tę pracę w tym samym duchu: dostępność, tłumaczenia i troska o użytkowników.
+
+== Źródła
+
+* https://sourceforge.net/projects/slint/[SourceForge: strona projektu Slint]
+* https://slackel.sourceforge.io/for-mourning-didier-spaier/[Wpis pamięci o Didierze Spaierze]

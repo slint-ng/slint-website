@@ -143,7 +143,7 @@ seçiniz.</p></div>
 <div class="sectionbody">
 <div class="paragraph"><p>Bu sıkıştırılmış arşiv slint ürünleri inşasında gerekli olan herşeyin
 yanında slint katkı vericileri için araçlar da bulunur. slint-[date].tar.xz
-ismindedir ve <a href="https://slint.fr/pub">pub/</a> dizini içinde bulunur.</p></div>
+ismindedir ve <a href="https://slint-ng.org/pub">pub/</a> dizini içinde bulunur.</p></div>
 <div class="paragraph"><p>Paketi açmak için yazınız:</p></div>
 <div class="listingblock">
 <div class="content">
@@ -187,7 +187,7 @@ cellspacing="0" cellpadding="4">
 </tr>
 <tr>
 <td align="left" valign="top"><p class="table">tools_for_translators/generate_man_pages</p></td>
-<td align="left" valign="top"><p class="table">Slackware de bazı araçlar için yerelleştirilmiş kılavuz sayları üretir. Bu PO dosyalarını denetlemenizi sağlar. Bu betiğin kullanımı için <a href="https://slint.fr/packages/extra">extra/</a> dizini içinde bulunan po4a paketi kurulu olmalıdır.</p></td>
+<td align="left" valign="top"><p class="table">Slackware de bazı araçlar için yerelleştirilmiş kılavuz sayları üretir. Bu PO dosyalarını denetlemenizi sağlar. Bu betiğin kullanımı için <a href="https://slint-ng.org/packages/extra">extra/</a> dizini içinde bulunan po4a paketi kurulu olmalıdır.</p></td>
 </tr>
 </tbody>
 </table>
@@ -390,12 +390,12 @@ simgee tıklayarak) sonra düzenlemenizi tavsiye ediyoruz.</td>
 kolayca denetlenebilir. Sadece şunu yapun:</p></div>
 <div class="listingblock">
 <div class="content">
-<pre><code>lftp -c "mirror https://slint.fr/website/"
+<pre><code>lftp -c "mirror https://slint-ng.org/website/"
 # Çevirinizi Transifex'den (buna &lt;translation.txt&gt; diyeceğiz) oluşturduğunuz website/ dizinine indirin
 cd website
 CONFIG_FILE=slint.conf.en
 # Seçimlik olarak, üst başlık ve dilinize çevirilmiş menü web sayfasına yüklendiyse:
-wget https://slint.fr/slint.conf.ll; CONFIG_FILE=slint.conf.ll # "ll" yerine dil kodunuzu (iki harf) kullanın
+wget https://slint-ng.org/slint.conf.ll; CONFIG_FILE=slint.conf.ll # "ll" yerine dil kodunuzu (iki harf) kullanın
 # sonra web sayfasını üretin
 asciidoc -b xhtml11 -a icons -f $CONFIG_FILE &lt;translation.txt&gt; # bu komut &lt;translation.html&gt; dosyasını üretir
 firefox &lt;translation.html&gt; &amp;</code></pre>

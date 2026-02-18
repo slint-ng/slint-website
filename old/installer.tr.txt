@@ -6,14 +6,14 @@ verir, ve Slackware'e tercüme edilmiş yönetim araçlarını ve kılavuz
 sayfalarını ekler.
 
 Sistemi yüklemek için 'Braille terminali' kullanılabilir. Kullanım
-talimatlarına https://slint.fr/docs/README_BRLTTY adresinden ulaşabilirsiniz.
+talimatlarına https://slint-ng.org/docs/README_BRLTTY adresinden ulaşabilirsiniz.
 
 == İndirin ve kurucu ISO kalıbını kontrol edin
 İki farklı boyutta kullanılabilir ISO kalıbı var:
 
 * http://sourceforge.net/projects/slint/files/[DVD + USB tam ISO kalıpları]
   Slackware'i yüklemek için ihtiyacınız olan her şeyi içerir.
-* https://slint.fr/installers[CD + USB küçük ISO kalıpları] Slackware
+* https://slint-ng.org/installers[CD + USB küçük ISO kalıpları] Slackware
   paketlerini içeren bir medyayla tamamlanmalıdır, örneğin bir Slackware
   DVD'si.
 

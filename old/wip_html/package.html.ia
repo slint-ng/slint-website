@@ -49,13 +49,13 @@ installar le pacchettos de Slint in addition: ja isto ha essite facite per
 le installator.</p></div>
 <div class="paragraph"><p>Un pacchetto de Slint es fornite per cata edition supportate de Slackware
 (Slackware 13.37, Slackware 14.0 e Slackware 14.1) in directorio
-<a href="https://slint.fr/packages">packages/</a>. Le mesme pacchetto pote esser
+<a href="https://slint-ng.org/packages">packages/</a>. Le mesme pacchetto pote esser
 installate sur versiones de  32 e 64 bit. Pro obtener, verificar e installar
 (o actualisar) <em>Pacchetto de Slint</em> (pro Slackware 14.1 in iste exemplo),
 face isto:</p></div>
 <div class="listingblock">
 <div class="content">
-<pre><code>wget -r -l1 -np -nd -A slint-14.1*  https://slint.fr/packages/ # tu obtenera le plus recente pacchetto de Slint e su associate file md5
+<pre><code>wget -r -l1 -np -nd -A slint-14.1*  https://slint-ng.org/packages/ # tu obtenera le plus recente pacchetto de Slint e su associate file md5
 md5sum -c slint-14.1*md5 # responsa deberea esser "OK", alteremente le pacchetto discargate es corrumpite
 su # obtene privilegios de radice o root
 upgradepkg --install-new --reinstall slint-14.1*txz # iste commando installa o actualisa le pacchetto</code></pre>
@@ -79,7 +79,7 @@ upgradepkg --install-new --reinstall slint-14.1*txz # iste commando installa o a
 Germano, Polonese, Portugese (Brasil), Russo, Espaniol (America Latin) e
 Ukrainiano.</p></div>
 <div class="paragraph"><p>Alcun paginas de manual es anque traducite in altere linguages, como
-indicate in <a href="https://slint.fr/packages/MAN_PAGES.TXT">MAN_PAGES.TXT</a>.</p></div>
+indicate in <a href="https://slint-ng.org/packages/MAN_PAGES.TXT">MAN_PAGES.TXT</a>.</p></div>
 <div class="paragraph"><p>Tabella a basso lista instrumentos de administration polyglotte e lor
 intentiones.</p></div>
 <div class="tableblock">

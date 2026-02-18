@@ -31,9 +31,9 @@ slintdotsh/
     
 /templatepo
   ll=`echo <fichier_nouveau_ou_modifié>|awk -F"." '{print $2}'`
-  po4a-translate -f xhml -l slint.conf -p <fichier nouveau ou modifié> -l ~/slint.fr/wip/slint.conf.$ll
+  po4a-translate -f xhml -l slint.conf -p <fichier nouveau ou modifié> -l ~/slint-ng.org/wip/slint.conf.$ll
   Verifier le nouveau patron en l'utilisant.
-    - si OK, "cp -f ~/slint.fr/wip/slint.conf.$ll ~/slint.fr
+    - si OK, "cp -f ~/slint-ng.org/wip/slint.conf.$ll ~/slint-ng.org
     - si KO, alerter le coordinateur
 
 Commment ré-générer le site après une mise à jour d'un fichier (traduction ou un des fichiers en Anglais)

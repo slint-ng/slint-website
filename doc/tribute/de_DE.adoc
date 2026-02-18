@@ -1,0 +1,12 @@
+== Im Gedenken an Didier Spaier
+
+Slint wurde 2013 von Didier Spaier gegründet.
+
+Er pflegte und leitete die Distribution bis zu seinem Tod am 14. Januar 2026.
+
+Das Slint-Team führt diese Arbeit im gleichen Geist fort: Barrierefreiheit, Übersetzung und Sorgfalt für die Nutzer.
+
+== Quellen
+
+* https://sourceforge.net/projects/slint/[SourceForge: Slint-Projektseite]
+* https://slackel.sourceforge.io/for-mourning-didier-spaier/[Gedenknotiz für Didier Spaier]

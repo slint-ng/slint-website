@@ -45,9 +45,9 @@ Last but not least, we need to work together as a team, so:
 
 === Target languages
 
-At time of writing the Slint installers and main Slackware administration tools are fully translated in Langues listed in our https://slint.fr/slint.html[home page]. Other translations are in progress, their current status can be checked on https://www.transifex.com/projects/p/slint/resource/slint/[this page].
+At time of writing the Slint installers and main Slackware administration tools are fully translated in Langues listed in our https://slint-ng.org/slint.html[home page]. Other translations are in progress, their current status can be checked on https://www.transifex.com/projects/p/slint/resource/slint/[this page].
 
-Manual pages are translated in more languages, complete translations are listed in file https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]
+Manual pages are translated in more languages, complete translations are listed in file https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]
 
 === Translated content
 

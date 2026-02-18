@@ -18,20 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Title ==
-#: /home/didier/slint.fr/changelog.en.txt:1
+#: /home/didier/slint-ng.org/changelog.en.txt:1
 #, no-wrap
 msgid "Changelog"
 msgstr "Changelog (Registro de cambios)"
 
 #. type: Plain text
-#: /home/didier/slint.fr/changelog.en.txt:4
+#: /home/didier/slint-ng.org/changelog.en.txt:4
 msgid ""
 "The Changelog retracing changes that occurred before 27/09/2014 is "
-"https://slint.fr/pub/slint-history/Changelog.txt[here]."
-msgstr "le Changelog que retracia modificationes que occurreva ante le 27/09/2014 es https://slint.fr/pub/slint-history/Changelog.txt[ci]."
+"https://slint-ng.org/pub/slint-history/Changelog.txt[here]."
+msgstr "le Changelog que retracia modificationes que occurreva ante le 27/09/2014 es https://slint-ng.org/pub/slint-history/Changelog.txt[ci]."
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:14
+#: /home/didier/slint-ng.org/changelog.en.txt:14
 #, no-wrap
 msgid ""
 "|Date|Changes\n"
@@ -44,7 +44,7 @@ msgid ""
 msgstr "|Data|Modificationes\n|27/09/2014|\nOn propone al usator crear usatores regular al fin de le installation. +\nImagines \"Full\" ISO (continente omne pacchettos expedite con le imagines DVD ISO de  Slackware  in addition al installator Slint ) es disponibile http://sourceforge.net/projects/slint/files/[ci] +\nNederlandese nunc es disponibile, gratias a Dik Leenheer e Eric Hameleers. +\nLe installatores e le pacchettos nunc installa un pauc de documentation in /usr/doc/slint-<version>-<date>, includente un Slint-HOWTO.txt e un script reinstall-slackware-packages.sh. +\nInstructiones pro seliger le linguage de le installation nunc es fornite directemente in le schermo de benvenite de le installatores.\n"
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:21
+#: /home/didier/slint-ng.org/changelog.en.txt:21
 #, no-wrap
 msgid ""
 "|19/12/2014|\n"

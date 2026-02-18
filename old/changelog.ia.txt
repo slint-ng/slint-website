@@ -1,7 +1,7 @@
 == Changelog (Registro de cambios)
 
 NOTE: le Changelog que retracia modificationes que occurreva ante le 27/09/2014 es
-https://slint.fr/pub/slint-history/Changelog.txt[ci].
+https://slint-ng.org/pub/slint-history/Changelog.txt[ci].
 
 [format="psv", options="header,autowidth"]
 |========

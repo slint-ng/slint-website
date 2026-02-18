@@ -85,7 +85,7 @@ https://www.transifex.com/projects/p/slint/resource/slint/[this page]
 üzerinden kontrol edilebilir.
 
 Kılavuz sayfalar daha fazla dile çevirilmiştir, tüm çeviriler
-https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT] dosyası içinde
+https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT] dosyası içinde
 listelenmiştir
 
 === Çevirilen içerik

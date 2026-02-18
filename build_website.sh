@@ -1,10 +1,10 @@
 #!/bin/sh
 # Run this script from  the root of the clone of:
-# https://github.com/DidierSpaier/slint-website
+# https://github.com/slint-ng/slint-website
 
-# The whole website accessed from https://slint.fr can be rebuilt locally after an update.
-# You can make a local rsync on the Apache server: $WIP/html => /var/www/htdocs to check the
-# website locally
+# The whole website accessed from https://slint-ng.org can be rebuilt locally after an update.
+# A local staged copy is always written in $WEBSITE_DIR.
+# Optionally, if DEPLOY_ROOT is set, the script rsyncs $WEBSITE_DIR to DEPLOY_ROOT.
 # All pages are in folders by language, not in the web site directory.
 # The header of most pages include the list of languages in which it is available
 # This is true for: HandBook.html, home.html, news.html, support.html and wiki.html
@@ -16,7 +16,7 @@
 # All pages include a header with links to:
 # Home Documentation Download Support Translate Wiki
 # with the exception of pages included in the archived old website like
-# https://slint.fr/old/index.html
+# https://slint-ng.org/old/index.html
 
 # PO files use the ll_TT scheme, but unless there be several locales per language,
 # we store the web pages in directories named $ll the per language directories.
@@ -27,18 +27,39 @@
 
 # Before running this script, insure that all files in asciidoc format in
 # sub-directories of:
-# https://github.com/DidierSpaier/slint-translations/translations/
+# https://github.com/slint-ng/slint-translations/translations/
 # be up to date running from its root po4a with as argument the relevant
 # .cfg file in the `configuration` folder and the --no-update option.
 
 # Most sources pages, in asciidoc format and their translations are stored in
-# https://github.com/DidierSpaier/slint-translations/ that we clone here
-rm -rf slint-translations
-# If not already done...
-# git clone https://github.com/DidierSpaier/slint-translations/
-# Here for testing, I use a clone not yet in sync the remote repository
-cp -r /data/github/slint-translations .|| exit
+# https://github.com/slint-ng/slint-translations/ that we clone here
 CWD="$(pwd)"
+TRANSLATIONS_REPO="https://github.com/slint-ng/slint-translations.git"
+TRANSLATIONS_LOCAL_CLONE="${TRANSLATIONS_LOCAL_CLONE:-$CWD/../slint-translations}"
+TRANSLATIONS_MIRROR="${TRANSLATIONS_MIRROR:-/data/github/slint-translations}"
+WEBSITE_DIR="${WEBSITE_DIR:-$CWD/website}"
+DEPLOY_ROOT="${DEPLOY_ROOT:-}"
+TRIBUTE_DIR="${TRIBUTE_DIR:-$CWD/doc/tribute}"
+TRIBUTE_FALLBACK="${TRIBUTE_FALLBACK:-$TRIBUTE_DIR/en_US.adoc}"
+DEFAULT_LANG="${DEFAULT_LANG:-en}"
+
+web_lang_dir() {
+	llTT="$1"
+	case "$llTT" in
+		pt_BR) printf '%s\n' "pt_BR" ;;
+		*) printf '%s\n' "${llTT%_*}" ;;
+	esac
+}
+
+rm -rf "$CWD"/slint-translations
+if [ -d "$TRANSLATIONS_LOCAL_CLONE" ]; then
+	cp -r "$TRANSLATIONS_LOCAL_CLONE" "$CWD"/slint-translations || exit 1
+elif [ -d "$TRANSLATIONS_MIRROR" ]; then
+	cp -r "$TRANSLATIONS_MIRROR" "$CWD"/slint-translations || exit 1
+else
+	git clone "$TRANSLATIONS_REPO" "$CWD"/slint-translations || exit 1
+fi
+
 rm -rf wip/*
 mkdir -p wip/html/doc
 WIP="$CWD"/wip
@@ -157,7 +178,7 @@ feed_HandBook14_2_1 () {
 		ll_TT="${i%.*.*}"
 		cat "$TMP/headers/${ll_TT}.header.adoc" "$i" > bif
 		mv bif "$i"
-		ll="${ll_TT%_*}"
+		ll="$(web_lang_dir "$ll_TT")"
 		mkdir -p "$WIP"/html/"$ll"
 		asciidoctor -a stylesdir=../css -a stylesheet=slint.css -a linkcss -a \
 		copycss="$CWD"/css/slint.css -D "$WIP" -a doctype=book "$i" -o bof
@@ -188,7 +209,7 @@ feed_HandBook() {
 		ll_TT="${i%.*.*}"
 		cat "$TMP/headers/${ll_TT}.header.adoc" "$i" > bif
 		mv bif "$i"
-		ll="${ll_TT%_*}"
+		ll="$(web_lang_dir "$ll_TT")"
 		mkdir -p "$WIP"/html/"$ll"
 		asciidoctor -a stylesdir=../css -a stylesheet=slint.css -a linkcss -a \
 		copycss="$CWD"/css/slint.css -D "$WIP" -a doctype=book "$i" -o bof
@@ -208,7 +229,7 @@ feed_support() {
 		ll_TT="${i%.*.*}"
 		cat "$TMP/headers/${ll_TT}.header.adoc" "$i" > bif
 		mv bif "$i"
-		ll="${ll_TT%_*}"
+		ll="$(web_lang_dir "$ll_TT")"
 		# We convert the headers level 2 of the HandBook to level 1 in Support
 		# hence s@===@==@
 		sed -n "\@// Support@,\@// Acknowledgments@p" "$i"|head -n -1  \
@@ -232,9 +253,20 @@ feed_homepage() {
 	langs="$(find . -name  "*adoc"|sed 's#..##'|cut -d_ -f1)"
 	find . -name "*.adoc"|sed 's#..##'|while read -r i; do
 		ll_TT="${i%.*.*}"
-		cat "$TMP/headers/${ll_TT}.header.adoc" "$i" > bif
+		ll="$(web_lang_dir "$ll_TT")"
+		tributeFile="$TRIBUTE_DIR/$ll_TT.adoc"
+		if [ ! -f "$tributeFile" ]; then
+			tributeFile="$TRIBUTE_DIR/$ll.adoc"
+		fi
+		if [ ! -f "$tributeFile" ]; then
+			tributeFile="$TRIBUTE_FALLBACK"
+		fi
+		if [ -f "$tributeFile" ]; then
+			cat "$TMP/headers/${ll_TT}.header.adoc" "$i" "$tributeFile" > bif
+		else
+			cat "$TMP/headers/${ll_TT}.header.adoc" "$i" > bif
+		fi
 		mv bif "$i"
-		ll="${ll_TT%_*}"
 		mkdir -p "$WIP"/html/"$ll"
 		asciidoctor -a stylesdir=../css -a stylesheet=slint.css -a linkcss -a \
 		copycss="$CWD"/css/slint.css -D "$WIP" -a doctype=book "$i" -o bof
@@ -251,7 +283,7 @@ feed_news() {
 	langs="$(find . -name  "*adoc"|sed 's#..##'|cut -d_ -f1)"
 	find . -name "*.adoc"|sed 's#..##'|while read -r i; do
 		ll_TT="${i%.*.*}"
-		ll="${ll_TT%_*}"
+		ll="$(web_lang_dir "$ll_TT")"
 		cat "$TMP/headers/${ll_TT}.header.adoc" "$i" > bif
 		mv bif "$i"
 		#  echo "$ll_TT" >> "$WIP"/languages ?
@@ -279,7 +311,7 @@ feed_wiki() {
 	for article in $articles; do
 		mkdir -p "$TMP/$article"
 		for ll_TT in $locales; do
-			ll="${ll_TT%_*}"
+			ll="$(web_lang_dir "$ll_TT")"
 			mkdir -p "$WIP"/html/"$ll"
 			echo "include::$SLINTDOCS/translations/wiki/$article/${ll_TT}.${article}.adoc[ ]" \
 			>>"$TMP"/headers_wiki/"$ll_TT".wiki.adoc
@@ -295,7 +327,6 @@ feed_wiki() {
 
 # Note: if feed_HandBook14_2_1 is run after feed_HandBook the pages Handbook.html
 # are the same as oldHandBook.html. I did not find why yet - Didier 18 June 2025
-cp htaccess/.htaccess wip/html
 feed_HandBook14_2_1
 header_support
 feed_support
@@ -307,6 +338,40 @@ header_news
 feed_news
 header_wiki
 feed_wiki
+# If a page is not translated for a language, publish a fallback.
+# Prefer pt for pt_BR, else fallback to English.
+for langDir in "$WIP"/html/*; do
+	[ -d "$langDir" ] || continue
+	lang="$(basename "$langDir")"
+	for page in home news support wiki; do
+		target="$langDir/$page.html"
+		if [ ! -f "$target" ]; then
+			if [ "$lang" = "pt_BR" ] && [ -f "$WIP/html/pt/$page.html" ]; then
+				cp "$WIP/html/pt/$page.html" "$target"
+			elif [ -f "$WIP/html/en/$page.html" ]; then
+				cp "$WIP/html/en/$page.html" "$target"
+			fi
+		fi
+	done
+done
+
+# Create a root index that redirects to the default language home page.
+if [ ! -f "$WIP/html/$DEFAULT_LANG/home.html" ]; then
+	DEFAULT_LANG="en"
+fi
+cat > "$WIP/html/index.html" <<EOF
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Slint</title>
+  <meta http-equiv="refresh" content="0; url=./$DEFAULT_LANG/home.html">
+</head>
+<body>
+  <p>Redirecting to <a href="./$DEFAULT_LANG/home.html">$DEFAULT_LANG/home.html</a>.</p>
+</body>
+</html>
+EOF
 # 
 cp "$CWD"/doc/*.png "$WIP"/html/doc/
 asciidoctor -a stylesdir=../css -a stylesheet=slint.css -a linkcss -a \
@@ -318,11 +383,24 @@ asciidoctor -a stylesdir=../css -a stylesheet=slint.css -a linkcss -a \
 copycss="$CWD"/css/slint.css -D "$WIP" \
 "$CWD"/doc/internationalization_and_localization_of_shell_scripts.adoc -o "\
 $WIP"/html/doc/internationalization_and_localization_of_shell_scripts.html
-cp "$CWD"/doc/shell_and_bash_scripts.html "$WIP"/html/doc/ || exit 1
+asciidoctor -a stylesdir=../css -a stylesheet=slint.css -a linkcss -a \
+copycss="$CWD"/css/slint.css -D "$WIP" \
+"$CWD"/doc/shell_and_bash_scripting.adoc -o "$WIP"/html/doc/shell_and_bash_scripting.html
+cp "$WIP"/html/doc/shell_and_bash_scripting.html "$WIP"/html/doc/shell_and_bash_scripts.html || exit 1
 cp -r "$CWD"/css "$WIP"/html
-# Uncomment the following line to check the web site locally
-sudo rsync --verbose -avP --exclude-from="$CWD"/exclude -H --delete-after \
- "$CWD"/wip/html/ /var/www/htdocs/
+rm -rf "$WEBSITE_DIR"
+mkdir -p "$WEBSITE_DIR"
+rsync --verbose -avP -H --delete-after "$CWD"/wip/html/ "$WEBSITE_DIR"/ || exit 1
+if [ -n "$DEPLOY_ROOT" ]; then
+	if [ -d "$DEPLOY_ROOT" ] && [ -w "$DEPLOY_ROOT" ]; then
+		rsync --verbose -avP --exclude-from="$CWD"/exclude -H --delete-after \
+		 "$WEBSITE_DIR"/ "$DEPLOY_ROOT"/
+	else
+		printf '%s\n' "Deployment skipped. DEPLOY_ROOT is not a writable directory: $DEPLOY_ROOT"
+	fi
+else
+	printf '%s\n' "Website built in $WEBSITE_DIR"
+fi
 rm -rf "$CWD"/homepage "$CWD"/wiki "$CWD"/HandBook "$CWD"/HandBook14.2.1 "$CWD"/news
 # run from the VPS
 # su

@@ -40,7 +40,7 @@ instaladores de arranque:
 
 * O http://sourceforge.net/projects/slint/files/[DVD + USB imagens ISO
   completas] contêm tudo o que você precisa para instalar o Slackware.
-* O https://slint.fr/installers[CD + USB imagens ISO pequenas] precisam de ser
+* O https://slint-ng.org/installers[CD + USB imagens ISO pequenas] precisam de ser
   completadas por uma media que contém os pacotes do Slackware, por exemplo,
   um DVD do Slackware.
 
@@ -49,11 +49,11 @@ download da imagem, colocá-la em um DVD ou dispositivo USB e usá-la.
 
 Um terminal Braille também pode ser utilizado para instalar, em seguida,
 pilotar o sistema. Instruções de uso estão disponíveis em
-https://slint.fr/docs/README_BRLTTY.
+https://slint-ng.org/docs/README_BRLTTY.
 
 .Internacionalize seu Slackware genuíno ou atualize as ferramentas de tradução (re)instalando um 'pacote slint'
 Pacotes Slint estão localizados no diretório
-https://slint.fr/packages[pacotes/]. Veja a página link:package.html[pacote
+https://slint-ng.org/packages[pacotes/]. Veja a página link:package.html[pacote
 Slint] para saber como instalar um pacote slint para a sua versão do
 Slackware e o que você ganha pelo seu dinheiro :-)
 

@@ -85,7 +85,7 @@ controleren op
 https://www.transifex.com/projects/p/slint/resource/slint/[deze pagina].
 
 Manual pagina's zijn in meer talen vertaald. Een lijst met volledige
-vertalingen vind je op https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]
+vertalingen vind je op https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]
 
 === Vertaalde inhoud
 

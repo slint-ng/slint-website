@@ -85,11 +85,11 @@ De <a href="http://sourceforge.net/projects/slint/files/">DVD + USB volledige IS
 </li>
 <li>
 <p>
-De <a href="https://slint.fr/installers">CD + USB kleine ISO images</a> welke moeten worden aangevuld met media met de Slackware-pakketten, bijvoorbeeld een Slackware DVD.
+De <a href="https://slint-ng.org/installers">CD + USB kleine ISO images</a> welke moeten worden aangevuld met media met de Slackware-pakketten, bijvoorbeeld een Slackware DVD.
 </p>
 </li>
 </ul></div>
-<div class="paragraph"><div class="title">Internationaliseer je orginele Slackware of upgrade vertaal-tools door het (her)installeren van een <em>Slintpakket</em></div><p>Slint-pakketten staan in directory <a href="https://slint.fr/packages">packages/</a>. Zie pagina <a href="package.html">Slintpakket</a> hoe je een Slintpakket voor jouw Slackware-versie installeert en wat je krijgt voor je geld :-)</p></div>
+<div class="paragraph"><div class="title">Internationaliseer je orginele Slackware of upgrade vertaal-tools door het (her)installeren van een <em>Slintpakket</em></div><p>Slint-pakketten staan in directory <a href="https://slint-ng.org/packages">packages/</a>. Zie pagina <a href="package.html">Slintpakket</a> hoe je een Slintpakket voor jouw Slackware-versie installeert en wat je krijgt voor je geld :-)</p></div>
 <div class="paragraph"><p>(Her)installeer een <em>Slintpakket</em> wanneer:</p></div>
 <div class="ulist"><ul>
 <li>

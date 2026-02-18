@@ -56,9 +56,9 @@ href="index.html.uk">uk</a> |
 		</ul>
         <h3><span>Використання USB ISO образів локалізованих інсталяторів</span></h3>
         <p>Перейдіть до підкаталогу <a
-href="https://slint.fr/pub">https://slint.fr/pub</a> відповідного видання для
+href="https://slint-ng.org/pub">https://slint-ng.org/pub</a> відповідного видання для
 якого вам потрібен інсталятор, наприклад <a
-href="https://slint.fr/pub/64-14.1">https://slint.fr/pub/64-14.1</a> для
+href="https://slint-ng.org/pub/64-14.1">https://slint-ng.org/pub/64-14.1</a> для
 Slackware64-14.1, і дотримуйтеся інструкцій.
         </p>
         <p>Для запису CD або DVD локалізованого інсталятора для Slackware64-14.1:</p>
@@ -84,7 +84,7 @@ Slackware DVD або локальне дзеркало, оскільки ці п
 складу ISO і USB образів. 
         </p>
 		<h3><span>Використання пакунку з проґрамами <a
-href="https://slint.fr/pub/slint-20140206.tar.xz">slint-[date].tar.xz</a></span></h3>
+href="https://slint-ng.org/pub/slint-20140206.tar.xz">slint-[date].tar.xz</a></span></h3>
 		<p>Вам також знадобиться, окрім власне самого пакунку з проґрамами:</p>
 		<ol>
 			<li>Повне дзеркало тієї редакції дистрибутиву Slackware яку ви бажаєте
@@ -95,9 +95,9 @@ href="https://slint.fr/pub/slint-20140206.tar.xz">slint-[date].tar.xz</a></span>
 slint у інших дистрибутивах ОС  Linux,
 			</li>
 		</ol>
-		<p>Завантажте <a href="https://slint.fr/pub/slint-20140206.tar.xz">пакунок з
+		<p>Завантажте <a href="https://slint-ng.org/pub/slint-20140206.tar.xz">пакунок з
 проґрамами</a>, і <a
-href="https://slint.fr/pub/slint-20140206.tar.xz.md5">файл з md5</a> також,
+href="https://slint-ng.org/pub/slint-20140206.tar.xz.md5">файл з md5</a> також,
 потім виконайте таку команду:</p>
 		<ul>
 			<li>md5sum -c slint-[дата].tar.xz.md5 # має вивести "OK"</li>
@@ -131,8 +131,8 @@ Slackware ви бажаєте локалізувати. Скрипт потім 
 створення нової команди  у проєкті на сторінці <a
 href="https://www.transifex.com/projects/p/slint/">Transifex</a>. </a>
 Більше деталей у файлі <a
-href="https://slint.fr/pub/TRANSLATORS">TRANSLATORS</a>.</p>
-		<p>Але перш зверніть увагу на <a href="https://slint.fr/slint">файли slint</a>
+href="https://slint-ng.org/pub/TRANSLATORS">TRANSLATORS</a>.</p>
+		<p>Але перш зверніть увагу на <a href="https://slint-ng.org/slint">файли slint</a>
 для того, щоб з’ясувати, який об'єм роботи потрібно буде виконати.</p>
 		<h3><span>Перекладачі та рецензенти зареєстровані на Transifex</span></h3>
 		<table border="1">
@@ -184,7 +184,7 @@ href="https://slint.fr/pub/TRANSLATORS">TRANSLATORS</a>.</p>
 			<tr><td>Kemal Ökmen</td><td>Турецька</td><td>tr_TR</td></tr>
 		</table>
 		<p>Коли будуть доступні нові мови, вони будуть додані до інсталятора і нова
-версія буде доступна у <a href="https://slint.fr/pub">цій директорії.</a></p>
+версія буде доступна у <a href="https://slint-ng.org/pub">цій директорії.</a></p>
 		<h3><span>Давайте об’єднаємося</span></h3>
 		<p>Вітається будь-який вид сприяння чи участі.</p>
 		<p>Крім того, локалізований інсталятор може бути корисним для дистрибутивів

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: slintwebsite\n"
 "POT-Creation-Date: 2015-01-30 22:49+0100\n"
 "PO-Revision-Date: 2015-07-22 23:19+0000\n"
-"Last-Translator: Didier Spaier <didier@slint.fr>\n"
+"Last-Translator: Didier Spaier <didier@slint-ng.org>\n"
 "Language-Team: Spanish (Latin America) (http://www.transifex.com/projects/p/slintwebsite/language/es_419/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Title ==
-#: /home/didier/slint.fr/changelog.en.txt:1
+#: /home/didier/slint-ng.org/changelog.en.txt:1
 #, no-wrap
 msgid "Changelog"
 msgstr "Changelog"
 
 #. type: Plain text
-#: /home/didier/slint.fr/changelog.en.txt:4
+#: /home/didier/slint-ng.org/changelog.en.txt:4
 msgid ""
 "The Changelog retracing changes that occurred before 27/09/2014 is "
-"https://slint.fr/pub/slint-history/Changelog.txt[here]."
-msgstr "El Changelog que muestra los cambios ocurridos antes del 27/09/2014 está https://slint.fr/pub/slint-history/Changelog.txt[aquí]."
+"https://slint-ng.org/pub/slint-history/Changelog.txt[here]."
+msgstr "El Changelog que muestra los cambios ocurridos antes del 27/09/2014 está https://slint-ng.org/pub/slint-history/Changelog.txt[aquí]."
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:14
+#: /home/didier/slint-ng.org/changelog.en.txt:14
 #, no-wrap
 msgid ""
 "|Date|Changes\n"
@@ -45,7 +45,7 @@ msgid ""
 msgstr "|Fecha|Cambios\n|27/09/2014|\nSe le propone al usuario crear usuarios normales al final de la instalación. +\nLas Imágenes ISO \"completas\" (las que contienen todos los paquetes incluidos en la imagen ISO del DVD de Slackware además del instalador Slint) están disponibles http://sourceforge.net/projects/slint/files/[aquí] +\nHolandés ya está disponible, gracias a Dik Leenheer y Eric Hameleers. +\nLos instaladores y paquetes ahora instalan algunos documentos en /usr/doc/slint-<versión>-<fecha>, incluyendo un Slint-HOWTO.txt y un script llamado reinstall-slackware-packages.sh. +\nAhora se proveen instrucciones para escoger el lenguaje para la instalación directamente en la pantalla inicial de los instaladores.\n"
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:21
+#: /home/didier/slint-ng.org/changelog.en.txt:21
 #, no-wrap
 msgid ""
 "|19/12/2014|\n"

@@ -42,7 +42,7 @@ bootowalnych instalatorów:
 
 * http://sourceforge.net/projects/slint/files/[Pełne obrazy ISO DVD + USB]
   zawierają wszystko, co jest niezbędne do instalacji systemu Slackware.
-* https://slint.fr/installers[Małe obrazy ISO CD + USB] potrzebują nośniki
+* https://slint-ng.org/installers[Małe obrazy ISO CD + USB] potrzebują nośniki
   zawierające pakiety systemu Slackware, na przykład płyta DVD Slackware.
 
 See page link:installer.html[Slint installer] to know how to download the
@@ -50,11 +50,11 @@ image, put it on a DVD or USB stick and use it.
 
 A Braille terminal can also be used to install then pilot the
 system. Instructions for use are available in
-https://slint.fr/docs/README_BRLTTY.
+https://slint-ng.org/docs/README_BRLTTY.
 
 .Zinternacjonalizuj oryginalny system Slackware lub zaktualizuje narzędzia translatorskie (prze)instalując 'Pakiet Slint'.
 Pakiety Slint znajdują sie w katalogu
-https://slint.fr/packages[packages/]. Odwiedź stronę link:package.html[Slint
+https://slint-ng.org/packages[packages/]. Odwiedź stronę link:package.html[Slint
 package] by dowiedzieć się jak zainstalować pakiet Slint dla twojej wersji
 systemu Slackware i co wchodzi w skład pakietu.
 

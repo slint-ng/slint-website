@@ -146,7 +146,7 @@ automática</em> e como com o Lokalize, escolha uma fonte de largura fixa serif.
 <div class="paragraph"><p>Este ficheiro compactado inclui tudo o que é necessário para construir
 produtos slint, bem como ferramentas destinadas a contribuidores slint. É
 nomeado Slint-[data].tar.xz e fornecido no diretório
-<a href="https://slint.fr/pub">pub/</a>.</p></div>
+<a href="https://slint-ng.org/pub">pub/</a>.</p></div>
 <div class="paragraph"><p>Para descompactá-lo, escreva:</p></div>
 <div class="listingblock">
 <div class="content">
@@ -191,7 +191,7 @@ cellspacing="0" cellpadding="4">
 </tr>
 <tr>
 <td align="left" valign="top"><p class="table">tools_for_translators/generate_man_pages</p></td>
-<td align="left" valign="top"><p class="table">Gera páginas de manual localizadas para algumas ferramentas destinadas ao Slackware. Isto permite verificar ficheiros PO. O uso deste script requer ter instalado o pacote po4a, disponível no diretório <a href="https://slint.fr/packages/extra">extra/</a>.</p></td>
+<td align="left" valign="top"><p class="table">Gera páginas de manual localizadas para algumas ferramentas destinadas ao Slackware. Isto permite verificar ficheiros PO. O uso deste script requer ter instalado o pacote po4a, disponível no diretório <a href="https://slint-ng.org/packages/extra">extra/</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -399,12 +399,12 @@ partir da sua tradução de um ficheiro de texto de origem. Basta fazer o
 seguinte:</p></div>
 <div class="listingblock">
 <div class="content">
-<pre><code>lftp -c "mirror https://slint.fr/website/"
+<pre><code>lftp -c "mirror https://slint-ng.org/website/"
 # Transfira a sua tradução do Transifex (vamos chamá-lo &lt;tradução.txt&gt;) para o site da internet do diretório/ recém-criado
 cd website
 CONFIG_FILE=slint.conf.en
 # Opcionalmente, se o título superior e o menu traduzido no seu idioma já se encontram carregados no site da internet:
-wget https://slint.fr/slint.conf.ll; CONFIG_FILE=slint.conf.ll # substituir "ll" com o seu código de linguagem (duas letras)
+wget https://slint-ng.org/slint.conf.ll; CONFIG_FILE=slint.conf.ll # substituir "ll" com o seu código de linguagem (duas letras)
 # Então cria a página da internet
 asciidoc -b xhtml11 -a icons -f $CONFIG_FILE &lt;tradução.txt&gt; # Este comando gera &lt;tradução.html&gt;
 firefox &lt;translation.html&gt; &amp;</code></pre>

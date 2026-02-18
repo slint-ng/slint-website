@@ -93,7 +93,7 @@ werden.
 
 Handbuchseiten sind in mehrere Sprachen übersetzt und komplette
 Übersetzungen sind in der Datei
-https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT] aufgelistet.
+https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT] aufgelistet.
 
 === Übersetzter Inhalt
 

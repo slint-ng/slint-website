@@ -143,7 +143,7 @@ Handbook <a href="http://docs.kde.org/development/en/kdesdk/lokalize/index.html"
 <div class="sectionbody">
 <div class="paragraph"><p>Этот сжатый архив содержит все необходимое для создания продуктов slint, как
 и инструменты для участников slint. Он называется slint-[дата].tar.xz и
-находится в каталоге <a href="https://slint.fr/pub">pub/</a>.</p></div>
+находится в каталоге <a href="https://slint-ng.org/pub">pub/</a>.</p></div>
 <div class="paragraph"><p>Для его распаковки наберите:</p></div>
 <div class="listingblock">
 <div class="content">
@@ -188,7 +188,7 @@ cellspacing="0" cellpadding="4">
 </tr>
 <tr>
 <td align="left" valign="top"><p class="table">tools_for_translators/generate_man_pages</p></td>
-<td align="left" valign="top"><p class="table">Генерирует переведенные страницы руководств для разных инструментов Slackware. Позволяет проверять PO-файлы. Использование этого сценария требует установленного пакета po4a, доступного в каталоге <a href="https://slint.fr/packages/extra">extra/</a>.</p></td>
+<td align="left" valign="top"><p class="table">Генерирует переведенные страницы руководств для разных инструментов Slackware. Позволяет проверять PO-файлы. Использование этого сценария требует установленного пакета po4a, доступного в каталоге <a href="https://slint-ng.org/packages/extra">extra/</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -392,12 +392,12 @@ AsciiDoc, которые вы можете прочесть или распеч�
 перевода. Просто выполните следующее:</p></div>
 <div class="listingblock">
 <div class="content">
-<pre><code>lftp -c "mirror https://slint.fr/website/"
+<pre><code>lftp -c "mirror https://slint-ng.org/website/"
 Загрузите ваш перевод с Transifex (назовем его &lt;translation.txt&gt;) в каталог website, созданный предыдущей командой
 cd website
 CONFIG_FILE=slint.conf.en
 # Необязательно, если заголовок и меню, переведенные на ваш язык, загружены на веб-сайт:
-wget https://slint.fr/slint.conf.ll; CONFIG_FILE=slint.conf.ll # замение «ll» на код вашего языка (две буквы)
+wget https://slint-ng.org/slint.conf.ll; CONFIG_FILE=slint.conf.ll # замение «ll» на код вашего языка (две буквы)
 # затем сгенерируйте веб-страницу
 asciidoc -b xhtml11 -a icons -f $CONFIG_FILE &lt;translation.txt&gt; # эта команда сгенерирует &lt;translation.html&gt;
 firefox &lt;translation.html&gt; &amp;</code></pre>

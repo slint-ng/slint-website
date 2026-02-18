@@ -1,7 +1,7 @@
 == Changelog
 
 NOTE: Ändringsloggen för förändringar som inträffat före 27/09/2014 finns
-https://slint.fr/pub/slint-history/Changelog.txt[här].
+https://slint-ng.org/pub/slint-history/Changelog.txt[här].
 
 [format="psv", options="header,autowidth"]
 |========

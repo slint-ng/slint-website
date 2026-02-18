@@ -1,0 +1,12 @@
+== Στη μνήμη του Didier Spaier
+
+Το Slint ιδρύθηκε από τον Didier Spaier το 2013.
+
+Συντηρούσε και καθοδηγούσε τη διανομή μέχρι τον θάνατό του στις 14 Ιανουαρίου 2026.
+
+Η ομάδα του Slint συνεχίζει αυτό το έργο με το ίδιο πνεύμα: προσβασιμότητα, μετάφραση και φροντίδα για τους χρήστες.
+
+== Πηγές
+
+* https://sourceforge.net/projects/slint/[SourceForge: σελίδα έργου Slint]
+* https://slackel.sourceforge.io/for-mourning-didier-spaier/[Μνημονικό σημείωμα για τον Didier Spaier]

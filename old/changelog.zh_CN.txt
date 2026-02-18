@@ -1,6 +1,6 @@
 == 更新日志
 
-注意：2013年12月19日之前的更新记录在 https://slint.fr/pub/slint-history/Changelog.txt[这里]
+注意：2013年12月19日之前的更新记录在 https://slint-ng.org/pub/slint-history/Changelog.txt[这里]
 
 [format="psv",options="header,autowidth"]
 |========

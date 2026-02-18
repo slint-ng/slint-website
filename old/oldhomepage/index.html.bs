@@ -51,9 +51,9 @@ bitni),</li>
 Španski (latinska Amerika) i Ukrajinski.</li>
 		</ul>
         <h3><span>Koristeći USB ISO slike internacionalizovanih installera</span></h3>
-        <p>Idite u poddirektorij  <a href="https://slint.fr/pub">https://slint.fr/pub</a>
+        <p>Idite u poddirektorij  <a href="https://slint-ng.org/pub">https://slint-ng.org/pub</a>
 koji odgovara izdanju za koje želite installer, naprimjer <a
-href="https://slint.fr/pub/64-14.1">https://slint.fr/pub/64-14.1</a> za
+href="https://slint-ng.org/pub/64-14.1">https://slint-ng.org/pub/64-14.1</a> za
 Slackware64-14.1 i pratite uputstva.
         </p>
         <p>Da snimite CD ili DVD internacionalizovanog installera za Slackware64-14.1:</p>
@@ -78,7 +78,7 @@ softverskim paketima za istu verziju, naprimjer Slackware DVD ili lokalni
 mirror jer ovi paketi nisu uključeni u ISO i USB slike. 
         </p>
 		<h3><span>Upotreba softverskog paketa <a
-href="https://slint.fr/pub/slint-20140206.tar.xz">slint-[datum].tar.xz</a></span></h3>
+href="https://slint-ng.org/pub/slint-20140206.tar.xz">slint-[datum].tar.xz</a></span></h3>
 		<p>Trebati ćete, pored samog softverskog paketa:</p>
 		<ol>
 			<li>Cijeli mirror Slackware izdanja koje želite internacionalizovati: Slackware
@@ -89,8 +89,8 @@ internacionalizaciju. Naravno, puni Slackware je preporučen, ali možete
 skinuti slint i iskoristiti ga u drugom Linux sistemu,
 			</li>
 		</ol>
-		<p>Skinite <a href="https://slint.fr/pub/slint-20140206.tar.xz">softverski
-paket</a> i <a href="https://slint.fr/pub/slint-20140206.tar.xz.md5">md5
+		<p>Skinite <a href="https://slint-ng.org/pub/slint-20140206.tar.xz">softverski
+paket</a> i <a href="https://slint-ng.org/pub/slint-20140206.tar.xz.md5">md5
 kontrolnu datoteku</a>, te unesite sljedeću komandu:</p>
 		<ul>
 			<li>md5sum -c slint-[datum].tar.xz.md5 # izlaz bi trebao biti "OK"</li>
@@ -122,8 +122,8 @@ jezika.</p>
 projektnom prostoru na <a
 href="https://www.transifex.com/projects/p/slint/">Transifexu</a>,
 pročitajte datoteku <a
-href="https://slint.fr/pub/TRANSLATORS">TRANSLATORS</a> za detalje.</p>
-		<p>Ali prvo pogledajte <a href="https://slint.fr/slint">slintove datoteke</a> da
+href="https://slint-ng.org/pub/TRANSLATORS">TRANSLATORS</a> za detalje.</p>
+		<p>Ali prvo pogledajte <a href="https://slint-ng.org/slint">slintove datoteke</a> da
 procijenite vrstu i količinu rada potrebnog.</p>
 		<h3><span>Prevodioci i recenzenti registrovani na Transifexu</span></h3>
 		<table border="1">
@@ -175,7 +175,7 @@ procijenite vrstu i količinu rada potrebnog.</p>
 			<tr><td>Kemal Ökmen</td><td>Turčin</td><td>tr_TR</td></tr>
 		</table>
 		<p>Kad god je novi jezik dostupan, biće dodan u installer i nova verzija će
-biti dostupa u <a href="https://slint.fr/pub">ovom direktoriju.</a></p>
+biti dostupa u <a href="https://slint-ng.org/pub">ovom direktoriju.</a></p>
 		<h3><span>Pokrenimo ekipu</span></h3>
 		<p>Svaka vrsta doprinosa ili saradnje je dobrodošla.</p>
 		<p>Također, internacionalizovani installer može biti koristan distribucijama

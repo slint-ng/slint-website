@@ -39,7 +39,7 @@ kurucular oluşturulabilir
 
 * http://sourceforge.net/projects/slint/files/[DVD + USB tam ISO kalıpları]
   Slackware'i yüklemek için ihtiyacınız olan her şeyi içerir.
-* https://slint.fr/installers[CD + USB küçük ISO kalıpları] Slackware
+* https://slint-ng.org/installers[CD + USB küçük ISO kalıpları] Slackware
   paketlerini içeren bir medyayla tamamlanmalıdır, örneğin bir Slackware
   DVD'si.
 
@@ -48,10 +48,10 @@ image, put it on a DVD or USB stick and use it.
 
 A Braille terminal can also be used to install then pilot the
 system. Instructions for use are available in
-https://slint.fr/docs/README_BRLTTY.
+https://slint-ng.org/docs/README_BRLTTY.
 
 .Asli Slackware'i yerelleştirin veya bir 'Slint paketi' (yeniden)kurarak çevirileri güncelleyin
-Slint paketleri https://slint.fr/packages[packages/] dizini içine
+Slint paketleri https://slint-ng.org/packages[packages/] dizini içine
 yerleştirilmiştir. Slackware yayımınız için bir Slint paketinin nasıl
 kurulduğunu ve paranız karşılığında ne aldığınızı :) öğrenmek için
 link:package.html[Slint package] sayfasına bakınız.

@@ -59,9 +59,9 @@ Bit),</li>
         <h3><span>USB-ISO-Abbild des internationalisierten Installationsprogramms
 verwenden</span></h3>
         <p>Gehen Sie ins Unterverzeichnis von <a
-href="https://slint.fr/pub">https://slint.fr/pub</a> der entsprechendem
+href="https://slint-ng.org/pub">https://slint-ng.org/pub</a> der entsprechendem
 Edition, für welche Sie ein Installationsprogramm benötigen, z.B. <a
-href="https://slint.fr/pub/64-14.1">https://slint.fr/pub/64-14.1</a> für
+href="https://slint-ng.org/pub/64-14.1">https://slint-ng.org/pub/64-14.1</a> für
 Slackware64-14.1 und folgen Sie den Anweisungen.
         </p>
         <p>Eine CD oder DVD des internationalisierten Installationsprogramm für
@@ -90,7 +90,7 @@ Version. Zum Beispiel eine Slackware DVD oder ein lokaler Mirror, weil diese
 Pakete nicht im ISO- und USB-Abbild enthalten sind. 
         </p>
 		<h3><span>Verwendung des Softwarepakets <a
-href="https://slint.fr/pub/slint-20140206.tar.xz">slint-[Datum].tar.xz</a></span></h3>
+href="https://slint-ng.org/pub/slint-20140206.tar.xz">slint-[Datum].tar.xz</a></span></h3>
 		<p>Sie benötigen, neben dem Softwarepaket selbst:</p>
 		<ol>
 			<li>Ein kompletter Mirror der Slackware Edition, die Sie internationalisieren
@@ -101,9 +101,9 @@ Internationalisierung benötigt werden. Vorzugsweise Slackware, aber slint
 kann auch auf anderen Linuxsystemen verwendet werden.
 			</li>
 		</ol>
-		<p>Laden Sie <a href="https://slint.fr/pub/slint-20140206.tar.xz">das
+		<p>Laden Sie <a href="https://slint-ng.org/pub/slint-20140206.tar.xz">das
 Softwarepaket</a> und <a
-href="https://slint.fr/pub/slint-20140206.tar.xz.md5">die MD5
+href="https://slint-ng.org/pub/slint-20140206.tar.xz.md5">die MD5
 Überprüfungsdatei</a> herunter und tippen Sie folgenden Befehl:</p>
 		<ul>
 			<li>md5sum -c slint-[Datum].tar.xz.md5 # Die Ausgabe sollte "OK" sein</li>
@@ -140,8 +140,8 @@ Teams zu verstärken und um das Installationsprogramm in weitere Sprachen zu
 href=http://www.transifex.com/projects/p/slint/">Transifex</a> einem
 bestehenden Übersetzungsteam beitreten oder ein Team für eine weitere
 Sprache erstellen. Lesen Sie die Datei <a
-href="https://slint.fr/pub/TRANSLATORS">TRANSLATORS</a> für weitere Angaben.</p>
-		<p>Doch schauen Sie zuerst die <a href="https://slint.fr/slint">slint
+href="https://slint-ng.org/pub/TRANSLATORS">TRANSLATORS</a> für weitere Angaben.</p>
+		<p>Doch schauen Sie zuerst die <a href="https://slint-ng.org/slint">slint
 Dateien</a> an, um herauszufinden, wie groß der benötigte Arbeitsaufwand
 ist.</p>
 		<h3><span>Auf Transifex registrierte Übersetzer und Prüfer</span></h3>
@@ -195,7 +195,7 @@ ist.</p>
 		</table>
 		<p>Jedes Mal, wenn eine neue Sprache verfügbar ist, wird diese zum
 Installationsprogramm hinzugefügt und eine neue Version von slint wird in <a
-href="https://slint.fr/pub">diesem Verzeichnis</a> bereitgestellt.</p>
+href="https://slint-ng.org/pub">diesem Verzeichnis</a> bereitgestellt.</p>
 		<h3><span>Lasst uns zusammenarbeiten</span></h3>
 		<p>Jede Art von Unterstützung oder Beteiligung ist erwünscht.</p>
 		<p>Das internationalisierte Installationsprogramm könnte auch für

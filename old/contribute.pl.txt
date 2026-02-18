@@ -86,7 +86,7 @@ stan można sprawdzić na
 https://www.transifex.com/projects/p/slint/resource/slint[tej stronie].
 
 Strony man są przetłumaczone na więcej języków. Ukończone tłumaczenia
-wymienione są w pliku https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]
+wymienione są w pliku https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]
 
 === Zawartość tłumaczeń
 

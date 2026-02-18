@@ -84,12 +84,12 @@ como equipa, assi:
 
 At time of writing the Slint installers and main Slackware administration
 tools are fully translated in Langues listed in our
-https://slint.fr/slint.html[home page]. Other translations are in progress,
+https://slint-ng.org/slint.html[home page]. Other translations are in progress,
 their current status can be checked on
 https://www.transifex.com/projects/p/slint/resource/slint/[this page].
 
 Paginas de manual es traducite in plure linguages, traductiones complete es
-listate in le file https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]
+listate in le file https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]
 
 === Contento traducite
 

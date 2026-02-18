@@ -56,9 +56,9 @@ Spaans (Latijns Amerika) en de Oekraïens.</li>
         <h3><span>Gebruik van USB ISO images van geïnternationaliseerde
 installers</span></h3>
         <p>Ga naar de subdirectory van <a
-href="https://slint.fr/pub">https://slint.fr/pub</a> corresponderend met de
+href="https://slint-ng.org/pub">https://slint-ng.org/pub</a> corresponderend met de
 editie waarvoor je de installer wilt hebben, bijvoorbeeld <a
-href="https://slint.fr/pub/64-14.1">https://slint.fr/pub/64-14.1</a> voor
+href="https://slint-ng.org/pub/64-14.1">https://slint-ng.org/pub/64-14.1</a> voor
 Slackware64-14.1 en volg de instructies.
         </p>
         <p>Het branden van een CD of DVD met geïnternationaliseerde installer voor
@@ -85,7 +85,7 @@ Slackware DVD of een lokale mirror. Deze pakketten zitten niet in de ISO en
 USB images. 
         </p>
 		<h3><span>Gebruik van softwarepakket <a
-href="https://slint.fr/pub/slint-20140206.tar.xz">slint-[datum].tar.xz</a></span></h3>
+href="https://slint-ng.org/pub/slint-20140206.tar.xz">slint-[datum].tar.xz</a></span></h3>
 		<p>Je hebt nodig, buiten het softwarepakket zelf:</p>
 		<ol>
 			<li>Een complete mirror van de Slackware editie die je wilt internationaliseren:
@@ -96,9 +96,9 @@ internationalisering. Natuurlijk heeft een volledige Slackware de voorkeur
 maar je kunt ook slint downloaden en een andere Linux systeem gebruiken,
 			</li>
 		</ol>
-		<p>Download <a href="https://slint.fr/pub/slint-20140206.tar.xz">het
+		<p>Download <a href="https://slint-ng.org/pub/slint-20140206.tar.xz">het
 softwarepakket</a>, en <a
-href="https://slint.fr/pub/slint-20140206.tar.xz.md5">het md5
+href="https://slint-ng.org/pub/slint-20140206.tar.xz.md5">het md5
 controlebestand</a> en typ het volgende commando:</p>
 		<ul>
 			<li>md5sum -c slint-[datum].tar.xz.md5 # resultaat moet "OK" zijn</li>
@@ -132,9 +132,9 @@ in meer talen te vertalen.</p>
 		<p>Om je aan te sluiten bij een bestaand vertaalteam of om een nieuw team te
 starten ga naar <a
 href="https://www.transifex.com/projects/p/slint/">Transifex</a>, zie het
-bestand <a href="https://slint.fr/pub/TRANSLATORS">TRANSLATORS</a> voor
+bestand <a href="https://slint-ng.org/pub/TRANSLATORS">TRANSLATORS</a> voor
 details.</p>
-		<p>Maar kijk eerst eens naar de <a href="https://slint.fr/slint">slint
+		<p>Maar kijk eerst eens naar de <a href="https://slint-ng.org/slint">slint
 bestanden</a> om een indruk te krijgen van de hoeveelheid werk.</p>
 		<h3><span>Op Transifex geregistreerde vertalers en recensenten</span></h3>
 		<table border="1">
@@ -187,7 +187,7 @@ bestanden</a> om een indruk te krijgen van de hoeveelheid werk.</p>
 		</table>
 		<p>Wanneer er een nieuwe taal beschikbaar is zal deze worden opgenomen in de
 installer en een nieuwe versie zal verstrekt worden in <a
-href="https://slint.fr/pub">deze directory.</a></p>
+href="https://slint-ng.org/pub">deze directory.</a></p>
 		<h3><span>Let's team up</span></h3>
 		<p>Iedere bijdrage of betrokkenheid is welkom.</p>
 		<p>De geïnternationaliseerde installer kan tevens bruikbaar zijn voor op

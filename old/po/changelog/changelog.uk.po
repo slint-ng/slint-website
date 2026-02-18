@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: slintwebsite\n"
 "POT-Creation-Date: 2015-01-30 22:49+0100\n"
 "PO-Revision-Date: 2015-07-22 23:22+0000\n"
-"Last-Translator: Didier Spaier <didier@slint.fr>\n"
+"Last-Translator: Didier Spaier <didier@slint-ng.org>\n"
 "Language-Team: Ukrainian (Ukraine) (http://www.transifex.com/projects/p/slintwebsite/language/uk_UA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,20 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. type: Title ==
-#: /home/didier/slint.fr/changelog.en.txt:1
+#: /home/didier/slint-ng.org/changelog.en.txt:1
 #, no-wrap
 msgid "Changelog"
 msgstr "Журнал змін"
 
 #. type: Plain text
-#: /home/didier/slint.fr/changelog.en.txt:4
+#: /home/didier/slint-ng.org/changelog.en.txt:4
 msgid ""
 "The Changelog retracing changes that occurred before 27/09/2014 is "
-"https://slint.fr/pub/slint-history/Changelog.txt[here]."
-msgstr "Зміни, що відбулися до 27/09/2014, описано https://slint.fr/pub/slint-history/Changelog.txt[тут]."
+"https://slint-ng.org/pub/slint-history/Changelog.txt[here]."
+msgstr "Зміни, що відбулися до 27/09/2014, описано https://slint-ng.org/pub/slint-history/Changelog.txt[тут]."
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:14
+#: /home/didier/slint-ng.org/changelog.en.txt:14
 #, no-wrap
 msgid ""
 "|Date|Changes\n"
@@ -44,7 +44,7 @@ msgid ""
 msgstr "|Дата|Зміни\n|27/09/2014|\nКористувач запропонував створити звичайних користувачів у кінці встановлення. +\n\"Повні\" ISO образи (які містять в собі усі пакунки, що постачаються з оригінальним образом Slackware DVD, як доповнення до встановника Slint) доступні http://sourceforge.net/projects/slint/files/[тут] +\nНідерландська тепер доступна, завдяки Діку Лінчіру та Еріку Хемелірсу. +\nВстановники та пакунки зараз встановлять деякі посібники у /usr/doc/slint-<version>-<date>, включаючи Slint-HOWTO.txt та скрипт reinstall-slackware-packages.sh. +\nІнструкція по тому, як обрати мову для встановлення, від тепер постачається безпосередньо у вітальному екрані встановника.\n"
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:21
+#: /home/didier/slint-ng.org/changelog.en.txt:21
 #, no-wrap
 msgid ""
 "|19/12/2014|\n"

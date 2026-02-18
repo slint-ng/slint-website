@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: slintwebsite\n"
 "POT-Creation-Date: 2015-01-30 22:49+0100\n"
 "PO-Revision-Date: 2015-07-22 23:22+0000\n"
-"Last-Translator: Didier Spaier <didier@slint.fr>\n"
+"Last-Translator: Didier Spaier <didier@slint-ng.org>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/slintwebsite/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Title ==
-#: /home/didier/slint.fr/changelog.en.txt:1
+#: /home/didier/slint-ng.org/changelog.en.txt:1
 #, no-wrap
 msgid "Changelog"
 msgstr "Changelog"
 
 #. type: Plain text
-#: /home/didier/slint.fr/changelog.en.txt:4
+#: /home/didier/slint-ng.org/changelog.en.txt:4
 msgid ""
 "The Changelog retracing changes that occurred before 27/09/2014 is "
-"https://slint.fr/pub/slint-history/Changelog.txt[here]."
-msgstr "Ändringsloggen för förändringar som inträffat före 27/09/2014 finns https://slint.fr/pub/slint-history/Changelog.txt[här]."
+"https://slint-ng.org/pub/slint-history/Changelog.txt[here]."
+msgstr "Ändringsloggen för förändringar som inträffat före 27/09/2014 finns https://slint-ng.org/pub/slint-history/Changelog.txt[här]."
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:14
+#: /home/didier/slint-ng.org/changelog.en.txt:14
 #, no-wrap
 msgid ""
 "|Date|Changes\n"
@@ -43,7 +43,7 @@ msgid ""
 msgstr "|Datum|Ändringar\n|27/09/2014|\nAnvändaren föreslås att skapa vanliga användare vid slutet av installationen. +\n\"Full\" ISO-avbilder (som innehåller alla paket som levereras i Slackware DVD ISO-avbilden utöver Slint installationsprogram) är tillgängliga http://sourceforge.net/projects/slint/files/[här] +\nHolländska finns nu, tack vare Dik Leenheer och Eric Hameleers. +\nDe installationsprogram och paket installerar nu del dokumentation i /usr/doc/slint-<version>-<datum>, inklusive en Slint-HOWTO.txt och ett skript reinstall-slackware-packages.sh. +\nInstruktioner för att välja språk för installation ges nu direkt i välkomstskärmen av installationsprogram.\n"
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:21
+#: /home/didier/slint-ng.org/changelog.en.txt:21
 #, no-wrap
 msgid ""
 "|19/12/2014|\n"

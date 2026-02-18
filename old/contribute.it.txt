@@ -89,7 +89,7 @@ https://www.transifex.com/projects/p/slint/resource/slint/[questa pagina].
 
 Le pagine del manuale sono tradotte in piu' linguaggi, le traduzioni
 complete sono elencate sul file
-https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]
+https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]
 
 === Contenuto tradotto
 

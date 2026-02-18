@@ -1,8 +1,9 @@
 #!/bin/sh
 
-LOCAL_MIRROR=~/slint.fr
+LOCAL_MIRROR=~/slint-ng.org
 write_pages() {
-  for i in `ls ${page}*txt`; do
+  for i in "${page}"*txt; do
+    [ -e "$i" ] || continue
     CONF_FILE=slint.conf.en
     ll=`echo $i|awk -F"." '{print $2}'`
     mkdir -p $ll
@@ -12,7 +13,7 @@ write_pages() {
     echo "Page ${page}.${ll}.txt processed"
     echo "Page ${page}.${ll}.txt processed" >> wip/list
     asciidoc -b xhtml11 -a icons -f $CONF_FILE -o $ll/${page}.html ${page}.${ll}.txt
-    sed -i  "s|<head>|<head><base href=\"http://localhost/slint.fr/${ll}/index.html\" />|" $ll/${page}.html
+    sed -i  "s|<head>|<head><base href=\"http://localhost/slint-ng.org/${ll}/index.html\" />|" $ll/${page}.html
     sed -i 's|./asciidoc.css|../asciidoc.css|' $ll/${page}.html
     sed -i 's|./slint.css|../slint.css|' $ll/${page}.html
     sed -i 's|./images|../images|' $ll/${page}.html
@@ -35,7 +36,8 @@ touch wip/list
 for page in changelog contribute installer package tools translators; do
   if [ ! "`ls ${page}*txt|wc -l`" = "1" ]; then
      echo -n "|" > wip/languages
-     for i in `ls ${page}*txt`; do
+     for i in "${page}"*txt; do
+       [ -e "$i" ] || continue
        ll=`echo $i|awk -F"." '{print $2}'`
        echo -n " <a href=\"../$ll/${page}.html\">$ll</a> |" >> wip/languages
      done
@@ -71,10 +73,9 @@ cat wip/list|wc -l
 rm -f wip/list
 echo '<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' > sitemap.xml
-find -name *html|sed 's|.|https://slint.fr|'|awk '{print "<url>\n<loc>" $0 "</loc>\n</url>"}' >> sitemap.xml
+find -name *html|sed 's|.|https://slint-ng.org|'|awk '{print "<url>\n<loc>" $0 "</loc>\n</url>"}' >> sitemap.xml
 echo "</urlset>" >> sitemap.xml
 )
-
 
 
 

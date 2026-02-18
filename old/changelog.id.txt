@@ -1,7 +1,7 @@
 == Catatan Perubahan
 
 NOTE: Catatan perubahan yang terjadi sebelum 27/09/2014 berada
-https://slint.fr/pub/slint-history/Changelog.txt[here].
+https://slint-ng.org/pub/slint-history/Changelog.txt[here].
 
 [format="psv", options="header,autowidth"]
 |========

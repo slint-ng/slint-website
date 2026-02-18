@@ -7,14 +7,14 @@ Slackware.
 
 Een 'Braille terminal' kan eveneens gebruikt worden om het systeem te
 installeren en daarna te besturen. Gebruiksinstructies zijn te vinden in
-https://slint.fr/docs/README_BRLTTY.
+https://slint-ng.org/docs/README_BRLTTY.
 
 == Download en controleer het ISO-image van de installer
 Er zijn ISO-images beschikbaar in twee grootten:
 
 * De http://sourceforge.net/projects/slint/files/[DVD + USB volledige ISO
   images] met alles wat nodig is voor een volledige Slackware installatie.
-* De https://slint.fr/installers[CD + USB mini ISO images] welke moeten worden
+* De https://slint-ng.org/installers[CD + USB mini ISO images] welke moeten worden
   aangevuld met media die de Slackware pakketten bevat, bijvoorbeeld een
   Slackware DVD.
 

@@ -17,4 +17,4 @@ Disallow: /slint/
 Disallow: /slint-20141218/
 Disallow: /website/
 Disallow: /wip/
-Sitemap: https://slint.fr/sitemap.xml
+Sitemap: https://slint-ng.org/sitemap.xml

@@ -1,8 +1,9 @@
 #!/bin/sh
 
-LOCAL_MIRROR=~/slint.fr
+LOCAL_MIRROR=~/slint-ng.org
 write_pages() {
-  for i in `ls ${page}*txt`; do
+  for i in "${page}"*txt; do
+    [ -e "$i" ] || continue
     # CONF_FILE will be used as argument of the -f option of asciidovc when
     #  building the web pages. It includes the left hand menu, localized if
     # available, else using the english version as a fall back.
@@ -42,7 +43,8 @@ for page in changelog contribute installer package slint tools translators sorry
   if [ ! "`ls ${page}*txt|wc -l`" = "1" ]; then
   # We build the list of available languages for that page in the top menu. 
      echo -n "|" > wip/languages
-     for i in `ls ${page}*txt`; do
+     for i in "${page}"*txt; do
+       [ -e "$i" ] || continue
        ll=`echo $i|awk -F"." '{print $2}'`
        echo -n " <a href=\"../$ll/${page}.html\">$ll</a> |" >> wip/languages
      done
@@ -63,16 +65,15 @@ for i in `cat languages`; do
 done
 cp -f en/index.html index.html
 mv -f en/sorry_the_requested_resource_was_not_found.html .
-sed -i "s|<head>|<head>\n<base href=\"https://slint.fr/en/index.html\" />|" index.html sorry_the_requested_resource_was_not_found.html
+sed -i "s|<head>|<head>\n<base href=\"https://slint-ng.org/en/index.html\" />|" index.html sorry_the_requested_resource_was_not_found.html
 cat wip/list|wc -l
 rm -f wip/list
 # Provide a sitemap for the spidersyyy
 echo '<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' > sitemap.xml
-find -name "*html"|sed 's|.|https://slint.fr|'|awk '{print "<url>\n<loc>" $0 "</loc>\n</url>"}' >> sitemap.xml
+find -name "*html"|sed 's|.|https://slint-ng.org|'|awk '{print "<url>\n<loc>" $0 "</loc>\n</url>"}' >> sitemap.xml
 echo "</urlset>" >> sitemap.xml
 )
-
 
 
 

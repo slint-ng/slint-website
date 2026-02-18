@@ -42,10 +42,10 @@
 <h2 id="_download_and_install_or_upgrade_a_slint_package">Download and install or upgrade a Slint package</h2>
 <div class="sectionbody">
 <div class="paragraph"><p>If you just used Slint installer, there is no need to install the Slint package in addition: that&#8217;s already done by the installer.</p></div>
-<div class="paragraph"><p>A Slint package is provided for each supported Slackware edition (Slackware 13.37, Slackware 14.0 and Slackware 14.1) in directory <a href="https://slint.fr/packages">packages/</a>. The same package can be installed on 32 bit and 64 versions. To get, check and install (or upgrade) <em>Slint package</em> (for Slackware 14.1 in this example), do this:</p></div>
+<div class="paragraph"><p>A Slint package is provided for each supported Slackware edition (Slackware 13.37, Slackware 14.0 and Slackware 14.1) in directory <a href="https://slint-ng.org/packages">packages/</a>. The same package can be installed on 32 bit and 64 versions. To get, check and install (or upgrade) <em>Slint package</em> (for Slackware 14.1 in this example), do this:</p></div>
 <div class="listingblock">
 <div class="content">
-<pre><code>wget -r -l1 -np -nd -A slint-14.1*  https://slint.fr/packages/ # you will get the most recent Slint package and its associated md5 file
+<pre><code>wget -r -l1 -np -nd -A slint-14.1*  https://slint-ng.org/packages/ # you will get the most recent Slint package and its associated md5 file
 md5sum -c slint-14.1*md5 # answer should be "OK", else downloaded package is corrupt
 su # get root's privileges
 upgradepkg --install-new --reinstall slint-14.1*txz # this command installs or upgrade the package</code></pre>
@@ -66,7 +66,7 @@ slint</td>
 <div class="sectionbody">
 <div class="paragraph"><p>A Slint package contains polyglot tools and translation files.</p></div>
 <div class="paragraph"><p>At the time of writing, the following languages are included: French, German, Polish, Portuguese (Brazil), Russian, Spanish (Latin America) and Ukrainian.</p></div>
-<div class="paragraph"><p>Some manual pages are also translated to other languages, as indicated in <a href="https://slint.fr/packages/MAN_PAGES.TXT">MAN_PAGES.TXT</a>.</p></div>
+<div class="paragraph"><p>Some manual pages are also translated to other languages, as indicated in <a href="https://slint-ng.org/packages/MAN_PAGES.TXT">MAN_PAGES.TXT</a>.</p></div>
 <div class="paragraph"><p>Table below list polyglot administration tools and their purposes.</p></div>
 <div class="tableblock">
 <table rules="all"

@@ -54,9 +54,9 @@ Rusia, Spanyol (Amerika Latin) dan Ukraina.</li>
 		</ul>
         <h3><span>Menggunakan image ISO USB dari installer internasional</span></h3>
         <p>Masuk sub direktori dari <a
-href="https://slint.fr/pub">https://slint.fr/pub</a> sesuai dengan edisi yang
+href="https://slint-ng.org/pub">https://slint-ng.org/pub</a> sesuai dengan edisi yang
 hendak Anda pakai, misalnya <a
-href="https://slint.fr/pub/64-14.1">https://slint.fr/pub/64-14.1</a> untuk
+href="https://slint-ng.org/pub/64-14.1">https://slint-ng.org/pub/64-14.1</a> untuk
 Slackware64-14.1 dan ikuti petunjuknya.
         </p>
         <p>Untuk membakar CD atau DVD installer internasional untuk Slackware64-14.1:</p>
@@ -81,7 +81,7 @@ untuk versi yang sama, misalnya DVD Slackware atau mirror lokal, karena
 paket ini tidak disertakan pada image ISO dan USB. 
         </p>
 		<h3><span>Penggunaan paket software <a
-href="https://slint.fr/pub/slint-20140206.tar.xz">slint-[tanggal].tar.xz</a></span></h3>
+href="https://slint-ng.org/pub/slint-20140206.tar.xz">slint-[tanggal].tar.xz</a></span></h3>
 		<p>Anda akan memerlukan, selain paket software itu sendiri:</p>
 		<ol>
 			<li>Mirror penuh dari edisi Slackware yang dibuat versi internasional: DVD,
@@ -92,9 +92,9 @@ proses internasionalisasi. Slackware lebih diutamakan, tetapi Anda bisa
 mendownload slint dan menggunakannya pada sistem Linux lain,
 			</li>
 		</ol>
-		<p>Download <a href="https://slint.fr/pub/slint-20140206.tar.xz">paket
+		<p>Download <a href="https://slint-ng.org/pub/slint-20140206.tar.xz">paket
 software</a>, dan <a
-href="https://slint.fr/pub/slint-20140206.tar.xz.md5">file md5</a> juga, lalu
+href="https://slint-ng.org/pub/slint-20140206.tar.xz.md5">file md5</a> juga, lalu
 ketik perintah berikut:</p>
 		<ul>
 			<li>md5sum -c slint-[tanggal].tar.xz.md5 # output seharusnya "OK"</li>
@@ -126,9 +126,9 @@ bertanya kenapa US English tidak disertakan, bahasa itu selalu disertakan
 menterjemahkannya ke banyak bahasa.</p>
 		<p>Anda bisa meminta untuk bergabung atau membuat tim penterjemah pada proyek
 <a href="https://www.transifex.com/projects/p/slint/">Transifex</a>, lihat
-file <a href="https://slint.fr/pub/TRANSLATORS">TRANSLATORS</a> untuk
+file <a href="https://slint-ng.org/pub/TRANSLATORS">TRANSLATORS</a> untuk
 informasi lebih detail.</p>
-		<p>Tetapi pertama-tama lihat <a href="https://slint.fr/slint">file slint</a>
+		<p>Tetapi pertama-tama lihat <a href="https://slint-ng.org/slint">file slint</a>
 untuk melihat apa dan jumlah pekerjaan yang dikerjakan.</p>
 		<h3><span>Penterjemah dan reviewer yang terdaftar di Transifex</span></h3>
 		<table border="1">
@@ -180,7 +180,7 @@ untuk melihat apa dan jumlah pekerjaan yang dikerjakan.</p>
 			<tr><td>Kemal Ökmen</td><td>Turki</td><td>tr_TR</td></tr>
 		</table>
 		<p>Setiap kali ada bahasa baru, akan ditambahkan pada installer dan versi baru
-akan tersedia pada <a href="https://slint.fr/pub">direktori ini.</a></p>
+akan tersedia pada <a href="https://slint-ng.org/pub">direktori ini.</a></p>
 		<h3><span>Mari bergabung</span></h3>
 		<p>Setiap jenis kontribusi kami sambut.</p>
 		<p>Installer internasional juga bisa berguna untuk distribusi berbasiskan

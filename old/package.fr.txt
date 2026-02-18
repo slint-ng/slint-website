@@ -20,7 +20,7 @@ plus le paquet Slint, c'est déjà fait par l'installateur
 
 Un paquet Slint est fourni pour chaque édition Slackware supportée
 (Slackware 13.37, Slackware 14.0 et Slackware 14.1) dans le répertoire
-https://slint.fr/packages[packages/]. Le même paquet peut être installé sur
+https://slint-ng.org/packages[packages/]. Le même paquet peut être installé sur
 les versions 32 et 64 bit. Pour obtenir, vérifier et installer (ou mettre à
 niveau) le 'Paquet Slint' (pour Slackware 14.1 dans cet exemple), faites
 ceci:
@@ -46,7 +46,7 @@ Espagnol (Amérique latine), Français, Polonais, Portugais (Brésil), Russe et
 Ukrainien
 
 Quelques pages de manuel sont traduites dans d'autres langues, comme indiqué
-dans https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT].
+dans https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT].
 
 Le tableau ci-dessous liste les outils d'administration polyglottes et leurs
 fonctions.

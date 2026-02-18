@@ -7,7 +7,7 @@ Handbuchseiten zu Slackware hinzuzufügen.
 
 Zum installieren und steuern des Systems kann auch ein 'Braille terminal'
 verwendet werden. Eine Bedienungsanleitung ist unter
-https://slint.fr/docs/README_BRLTTY verfügbar.
+https://slint-ng.org/docs/README_BRLTTY verfügbar.
 
 == Herunterladen und Überprüfen des ISO-Abbilds des Installers
 ISO-Abbilder sind in zwei Größen verfügbar:
@@ -15,7 +15,7 @@ ISO-Abbilder sind in zwei Größen verfügbar:
 * Die großen http://sourceforge.net/projects/slint/files/[DVD- +
   USB-ISO-Abbilder] beinhalten alles Notwendige für die Installation von
   Slackware.
-* Die kleinen https://slint.fr/installers[CD- + USB-ISO-Abbilder] müssen durch
+* Die kleinen https://slint-ng.org/installers[CD- + USB-ISO-Abbilder] müssen durch
   ein Medium ergänzt werden, das die Slackwarepakete enthält, wie z.B. die
   Slackware-DVD.
 

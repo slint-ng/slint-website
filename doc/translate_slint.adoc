@@ -50,7 +50,7 @@ It will help, especially the blind translators, to know the https://support.crow
 
 Before you begin, please read <<recommendations,Practical recommendations>> below. You can also read link:../doc/internationalization_and_localization_of_shell_scripts.html[Internationalization and localization of shell scripts]⋅for a more in depth introduction.
  
-Files to be translated, tools to manage localization of shell scripts and documentation are available in the GitHub repository https://github.com/DidierSpaier/slint-translations[slint-translations]
+Files to be translated, tools to manage localization of shell scripts and documentation are available in the GitHub repository https://github.com/slint-ng/slint-translations[slint-translations]
 
 === Communicate with other Slint translators
 
@@ -71,7 +71,7 @@ The sources files are in English:
 ====
 To display your translation of the HandBook in a web browser you can do this, assuming that the packages gettext, gettext-tools and po4a are installed:
 
-* Download your translation, like for instance pt_PT.HandBook.po, and store in the same directory the file https://raw.githubusercontent.com/DidierSpaier/slint-translations/main/source/HandBook.adoc[HandBook.adoc]
+* Download your translation, like for instance pt_PT.HandBook.po, and store in the same directory the file https://raw.githubusercontent.com/slint-ng/slint-translations/main/source/HandBook.adoc[HandBook.adoc]
 * Convert your translation from the PO to the asciidoc format typing from this directory::
 +
 ----

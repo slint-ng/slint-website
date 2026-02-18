@@ -144,7 +144,7 @@ breedte.</p></div>
 <div class="sectionbody">
 <div class="paragraph"><p>Dit gecomprimeerd archief bevat alles wat nodig is om slint producten te
 compileren net als tools voor slint-bijdragers. Het heet slint-[date].tar.xz
-en is beschikbaar in directory <a href="https://slint.fr/pub">pub/</a>.</p></div>
+en is beschikbaar in directory <a href="https://slint-ng.org/pub">pub/</a>.</p></div>
 <div class="paragraph"><p>Om het uit te pakken, typ je:</p></div>
 <div class="listingblock">
 <div class="content">
@@ -189,7 +189,7 @@ cellspacing="0" cellpadding="4">
 </tr>
 <tr>
 <td align="left" valign="top"><p class="table">tools_for_translators/generate_man_pages</p></td>
-<td align="left" valign="top"><p class="table">Genereert gelocaliseerde man pages voor enkele tools voor Slackware. Laat je PO-bestanden controleren. Voor gebruik van dit script moet je het pakket po4a geïnstalleerd hebben, beschikbaar in directory <a href="https://slint.fr/packages/extra">extra/</a>.</p></td>
+<td align="left" valign="top"><p class="table">Genereert gelocaliseerde man pages voor enkele tools voor Slackware. Laat je PO-bestanden controleren. Voor gebruik van dit script moet je het pakket po4a geïnstalleerd hebben, beschikbaar in directory <a href="https://slint-ng.org/packages/extra">extra/</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -393,12 +393,12 @@ bewerken.</td>
 het brontekstbestand gemakkelijk als volgt controleren:</p></div>
 <div class="listingblock">
 <div class="content">
-<pre><code>lftp -c "mirror https://slint.fr/website/"
+<pre><code>lftp -c "mirror https://slint-ng.org/website/"
 # Download je vertaling van Transifex (die we &lt;translation.txt&gt; noemen&gt; naar de zojuist gecreëerde directory website/
 cd website
 CONFIG_FILE=slint.conf.en
 # Optioneel, als de bovenste titel en het menu vertaald in jouw taal al zijn geüpload naar de website:
-wget https://slint.fr/slint.conf.tt; CONFIG_FILE=slint.conf.tt # vervang "tt" met jouw taalcode (twee letters)
+wget https://slint-ng.org/slint.conf.tt; CONFIG_FILE=slint.conf.tt # vervang "tt" met jouw taalcode (twee letters)
 # genereer dan de webpagina
 asciidoc -b xhtml11 -a icons -f $CONFIG_FILE &lt;translation.txt&gt; # dit commando genereert &lt;translation.html&gt;
 firefox &lt;translation.html&gt; &amp;</code></pre>

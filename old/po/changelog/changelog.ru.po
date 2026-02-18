@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the changelog package.
 # 
 # Translators:
-# Didier Spaier <didier@slint.fr>, 2015
+# Didier Spaier <didier@slint-ng.org>, 2015
 # Yaroslav Shmelev <yars068@yandex.ru>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: slintwebsite\n"
 "POT-Creation-Date: 2015-01-30 22:49+0100\n"
 "PO-Revision-Date: 2015-07-22 23:21+0000\n"
-"Last-Translator: Didier Spaier <didier@slint.fr>\n"
+"Last-Translator: Didier Spaier <didier@slint-ng.org>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/slintwebsite/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #. type: Title ==
-#: /home/didier/slint.fr/changelog.en.txt:1
+#: /home/didier/slint-ng.org/changelog.en.txt:1
 #, no-wrap
 msgid "Changelog"
 msgstr "Журнал изменений"
 
 #. type: Plain text
-#: /home/didier/slint.fr/changelog.en.txt:4
+#: /home/didier/slint-ng.org/changelog.en.txt:4
 msgid ""
 "The Changelog retracing changes that occurred before 27/09/2014 is "
-"https://slint.fr/pub/slint-history/Changelog.txt[here]."
-msgstr "Изменения, произошедшие до 27.09.2014, описаны https://slint.fr/pub/slint-history/Changelog.txt[здесь]."
+"https://slint-ng.org/pub/slint-history/Changelog.txt[here]."
+msgstr "Изменения, произошедшие до 27.09.2014, описаны https://slint-ng.org/pub/slint-history/Changelog.txt[здесь]."
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:14
+#: /home/didier/slint-ng.org/changelog.en.txt:14
 #, no-wrap
 msgid ""
 "|Date|Changes\n"
@@ -45,7 +45,7 @@ msgid ""
 msgstr "|Дата|Изменения\n|27.09.2014|\nПо завершении установки предлагается создать обычных пользователей. +\nПолные образы ISO (содержащие все пакеты с образа ISO Slackware DVD в дополнение к установщику Slint) доступны http://sourceforge.net/projects/slint/files/[здесь]. +\nТеперь благодаря Dik Leenheer и Eric Hameleers доступен нидерландский. +\nУстановщики и пакеты Sint теперь устанавливает документацию в каталог /usr/doc/slint-<версия>-<дата>, включая Slint-HOWTO.txt и сценарий reinstall-slackware-packages.sh. +\nИнструкции по выбору языка установки теперь выводятся на экране приветствия установщиков.\n"
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:21
+#: /home/didier/slint-ng.org/changelog.en.txt:21
 #, no-wrap
 msgid ""
 "|19/12/2014|\n"

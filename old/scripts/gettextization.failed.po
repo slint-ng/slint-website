@@ -17,19 +17,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: /home/didier/slint.fr/contribute.en.txt:1
+#: /home/didier/slint-ng.org/contribute.en.txt:1
 #, fuzzy, no-wrap
 msgid "Contribute to the Slint project"
 msgstr "Contribuir al Proyecto Slint"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:4
+#: /home/didier/slint-ng.org/contribute.en.txt:4
 #, fuzzy
 msgid "So, you want to help and contribute to the Slint project? Welcome on board!"
 msgstr "¿Así que quiere ayudar y contribuir al proyecto Slint? !Bienvenido a bordo!"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:6
+#: /home/didier/slint-ng.org/contribute.en.txt:6
 #, fuzzy
 msgid ""
 "Needed work to provide Slint's products is mostly translating and reviewing "
@@ -44,13 +44,13 @@ msgstr ""
 "texto o páginas de manual."
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:8
+#: /home/didier/slint-ng.org/contribute.en.txt:8
 #, fuzzy
 msgid "Ideally, we would like that translators:"
 msgstr "Idealmente, nos gustaría que los traductores:"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:10
+#: /home/didier/slint-ng.org/contribute.en.txt:10
 #, fuzzy
 msgid ""
 "be able to communicate in English and very fluent in the target language, "
@@ -60,7 +60,7 @@ msgstr ""
 "lenguaje destino, preferiblemente su lenguaje nativo"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:11
+#: /home/didier/slint-ng.org/contribute.en.txt:11
 #, fuzzy
 msgid ""
 "understand technical vocabulary associated to installation and "
@@ -70,19 +70,19 @@ msgstr ""
 "administración de un sistema Linux"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:12
+#: /home/didier/slint-ng.org/contribute.en.txt:12
 #, fuzzy
 msgid "be Slackware users"
 msgstr "sean usuarios de Slackware"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:13
+#: /home/didier/slint-ng.org/contribute.en.txt:13
 #, fuzzy
 msgid "be able to read and understand simple shell scripts"
 msgstr "sean capaces de leer y entender scripts de shell simples"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:15
+#: /home/didier/slint-ng.org/contribute.en.txt:15
 #, fuzzy
 msgid ""
 "But even if you don't meet all of these expectations, don't hesitate to "
@@ -92,13 +92,13 @@ msgstr ""
 "voluntario: hay muchas tareas en las que su talento puede ser útil."
 
 #. type: Title ==
-#: /home/didier/slint.fr/contribute.en.txt:16
+#: /home/didier/slint-ng.org/contribute.en.txt:16
 #, fuzzy, no-wrap
 msgid "Volunteer and define your contributions"
 msgstr "Hágase voluntario y defina sus contribuciones"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:19
+#: /home/didier/slint-ng.org/contribute.en.txt:19
 #, fuzzy
 msgid ""
 "To volunteer as a translator, preferably use the Transifex platform: first "
@@ -113,7 +113,7 @@ msgstr ""
 "del proyecto Slint] en Transifex:"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:21
+#: /home/didier/slint-ng.org/contribute.en.txt:21
 #, fuzzy
 msgid ""
 "If your language is listed, click on it, then in that language's page click "
@@ -123,7 +123,7 @@ msgstr ""
 "lenguaje haga click en \"Unirse al equipo\"."
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:22
+#: /home/didier/slint-ng.org/contribute.en.txt:22
 #, fuzzy
 msgid ""
 "Else, click \"Request a language\" (in the light blue stripe just above "
@@ -133,7 +133,7 @@ msgstr ""
 "justo arriba de la lista de lenguajes)"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:24
+#: /home/didier/slint-ng.org/contribute.en.txt:24
 #, fuzzy
 msgid ""
 "But if you'd like to ask questions before, or propose your help for other "
@@ -145,7 +145,7 @@ msgstr ""
 "Slint: didier punto spaier arroba epsm punto fr."
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:26
+#: /home/didier/slint-ng.org/contribute.en.txt:26
 #, fuzzy
 msgid ""
 "Then you will consult with your team's coordinator or Slint maintainer to "
@@ -157,7 +157,7 @@ msgstr ""
 "sus contribuciones a Slint."
 
 #. type: Title ==
-#: /home/didier/slint.fr/contribute.en.txt:27
+#: /home/didier/slint-ng.org/contribute.en.txt:27
 #, fuzzy, no-wrap
 msgid "Know our methods & tools and be ready to communicate inside Slint team"
 msgstr ""
@@ -165,7 +165,7 @@ msgstr ""
 "del equipo Slint"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:30
+#: /home/didier/slint-ng.org/contribute.en.txt:30
 #, fuzzy
 msgid ""
 "Please read <<recommendations,Practical recommendations for translators>> "
@@ -175,7 +175,7 @@ msgstr ""
 "abajo."
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:32
+#: /home/didier/slint-ng.org/contribute.en.txt:32
 #, fuzzy
 msgid ""
 "Then, get acquainted with the link:tools.html[Tools] we use. To better use "
@@ -188,7 +188,7 @@ msgstr ""
 "siguientes paquetes:"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:34
+#: /home/didier/slint-ng.org/contribute.en.txt:34
 #, fuzzy
 msgid "../extra/aspell-words-lists/<packages for your language> for spelling checks"
 msgstr ""
@@ -196,7 +196,7 @@ msgstr ""
 "ortográfica"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:35
+#: /home/didier/slint-ng.org/contribute.en.txt:35
 #, fuzzy
 msgid ""
 "../kdei/<package kde-l10n for your language> to localize UI of Lokalize if "
@@ -206,7 +206,7 @@ msgstr ""
 "usuario de Lokalize si lo utiliza"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:37
+#: /home/didier/slint-ng.org/contribute.en.txt:37
 #, fuzzy
 msgid "Last but not least, we need to work together as a team, so:"
 msgstr ""
@@ -214,7 +214,7 @@ msgstr ""
 "equipo, así que:"
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:39
+#: /home/didier/slint-ng.org/contribute.en.txt:39
 #, fuzzy
 msgid ""
 "Please register on Transifex, even if you don't use its on line editor, then "
@@ -235,7 +235,7 @@ msgstr ""
 "participar en discusiones, hacer sugerencias y propuestas."
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:40
+#: /home/didier/slint-ng.org/contribute.en.txt:40
 #, fuzzy
 msgid ""
 "We strongly suggest that you subscribe to "
@@ -247,7 +247,7 @@ msgstr ""
 "coordinador de su equipo y el encargado de Slint puedan comunicarse."
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:41
+#: /home/didier/slint-ng.org/contribute.en.txt:41
 #, fuzzy
 msgid ""
 "Be ready to provide an email address allowing your team's coordinator and "
@@ -257,7 +257,7 @@ msgstr ""
 "de su lenguaje del proyecto Slint."
 
 #. type: Plain text
-#: /home/didier/slint.fr/contribute.en.txt:42
+#: /home/didier/slint-ng.org/contribute.en.txt:42
 #, fuzzy
 msgid ""
 "You can also use the Discussion feature available on Transifex in your "

@@ -60,9 +60,9 @@ key.</li>
 			<li>localization in French, German, Polish, Portuguese (Brazil), Russian, Spanish (Latin America) and Ukrainian.</li>
 		</ul>
         <h3><span>Using USB ISO images of internationalized installers</span></h3>
-        <p>Go to subdirectory  of <a href="https://slint.fr/pub">https://slint.fr/pub</a>
+        <p>Go to subdirectory  of <a href="https://slint-ng.org/pub">https://slint-ng.org/pub</a>
 corresponding to edition for which you want an installer, for instance <a
-href="https://slint.fr/pub/64-14.1">https://slint.fr/pub/64-14.1</a> for
+href="https://slint-ng.org/pub/64-14.1">https://slint-ng.org/pub/64-14.1</a> for
 Slackware64-14.1 and follow instructions.
         </p>
         <p>To burn a CD or DVD of internationalized installer for Slackware64-14.1:</p>
@@ -88,7 +88,7 @@ DVD or a local mirror, as these packages are not included in ISO and USB
 images. 
         </p>
 		<h3><span>Usage of software package <a
-href="https://slint.fr/pub/slint-20140206.tar.xz">slint-[date].tar.xz</a></span></h3>
+href="https://slint-ng.org/pub/slint-20140206.tar.xz">slint-[date].tar.xz</a></span></h3>
 		<p>You will need, besides software package itself:</p>
 		<ol>
 			<li>A full mirror of Slackware edition you want to internationalize: a Slackware
@@ -99,8 +99,8 @@ internationalization. Of course a full Slackware is prefered, but you can
 download slint and use it in another Linux system,
 			</li>
 		</ol>
-		<p>Download <a href="https://slint.fr/pub/slint-20140206.tar.xz">the software package</a>,
-and <a href="https://slint.fr/pub/slint-20140206.tar.xz.md5">the md5 check file</a> as
+		<p>Download <a href="https://slint-ng.org/pub/slint-20140206.tar.xz">the software package</a>,
+and <a href="https://slint-ng.org/pub/slint-20140206.tar.xz.md5">the md5 check file</a> as
 well, then type following command:</p>
 		<ul>
 			<li>md5sum -c slint-[date].tar.xz.md5 # output should be "OK"</li>
@@ -131,8 +131,8 @@ case you wonder why US English is not listed, it's always included :-)
 more languages.</p>
 		<p>You can request to join or create a translation team in the project space on
 <a href="https://www.transifex.com/projects/p/slint/">Transifex</a>, see
-file <a href="https://slint.fr/pub/TRANSLATORS">TRANSLATORS</a> for details.</p>
-		<p>But first have a look at <a href="https://slint.fr/slint">slint's files</a>
+file <a href="https://slint-ng.org/pub/TRANSLATORS">TRANSLATORS</a> for details.</p>
+		<p>But first have a look at <a href="https://slint-ng.org/slint">slint's files</a>
 to figure out the kind and amount of work needed.</p>
 		<h3><span>Translators and reviewers registered on Transifex</span></h3>
 		<table border="1">
@@ -184,7 +184,7 @@ to figure out the kind and amount of work needed.</p>
 			<tr><td>Kemal Ökmen</td><td>Turkish</td><td>tr_TR</td></tr>
 		</table>
 		<p>Whenever a new language will be available, it will be added to the installer
-and a new version will be provided in <a href="https://slint.fr/pub">this
+and a new version will be provided in <a href="https://slint-ng.org/pub">this
 directory.</a></p>
 		<h3><span>Let's team up</span></h3>
 		<p>Any kind of contribution or involvement is welcome.</p>

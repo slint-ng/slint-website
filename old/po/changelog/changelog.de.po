@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: slintwebsite\n"
 "POT-Creation-Date: 2015-01-30 22:49+0100\n"
 "PO-Revision-Date: 2015-07-22 23:21+0000\n"
-"Last-Translator: Didier Spaier <didier@slint.fr>\n"
+"Last-Translator: Didier Spaier <didier@slint-ng.org>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/projects/p/slintwebsite/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Title ==
-#: /home/didier/slint.fr/changelog.en.txt:1
+#: /home/didier/slint-ng.org/changelog.en.txt:1
 #, no-wrap
 msgid "Changelog"
 msgstr "Changelog"
 
 #. type: Plain text
-#: /home/didier/slint.fr/changelog.en.txt:4
+#: /home/didier/slint-ng.org/changelog.en.txt:4
 msgid ""
 "The Changelog retracing changes that occurred before 27/09/2014 is "
-"https://slint.fr/pub/slint-history/Changelog.txt[here]."
-msgstr "Die Changelog (Protokoll der Änderungen) für Änderungen vor dem 27.09.2014 ist https://slint.fr/pub/slint-history/Changelog.txt[hier]."
+"https://slint-ng.org/pub/slint-history/Changelog.txt[here]."
+msgstr "Die Changelog (Protokoll der Änderungen) für Änderungen vor dem 27.09.2014 ist https://slint-ng.org/pub/slint-history/Changelog.txt[hier]."
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:14
+#: /home/didier/slint-ng.org/changelog.en.txt:14
 #, no-wrap
 msgid ""
 "|Date|Changes\n"
@@ -45,7 +45,7 @@ msgid ""
 msgstr "|Datum|Änderungen\n|27.09.2014|\nDem Benutzer wird vorgeschlagen, am Ende der Installation einen regulären Benutzer zu erstellen. +\n\"Volle\" ISO-Abbilder (enthalten alle Pakete des Slackware DVD ISO-Abbilds und zusätzlich den Slint-Installer) sind http://sourceforge.net/projects/slint/files/[hier] erhältlich +\nNiederländisch ist jetzt verfügbar, dank Dik Leenheer und Eric Hameleers. +\nDie Installer und Pakete installieren jetzt einige Dokumente in /usr/doc/slint-<version>-<datum>, inkl. einer Slint-HOWTO.txt und dem Skript reinstall-slackware-packages.sh. +\nHinweise zur Auswahl der Sprache für die Installation werden jetzt direkt auf dem Begrüßungsbildschirm des Installers angezeigt. +\n"
 
 #. type: delimited block |
-#: /home/didier/slint.fr/changelog.en.txt:21
+#: /home/didier/slint-ng.org/changelog.en.txt:21
 #, no-wrap
 msgid ""
 "|19/12/2014|\n"

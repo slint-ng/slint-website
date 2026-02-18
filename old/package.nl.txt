@@ -19,12 +19,12 @@ meer te installeren: dat is dan al gedaan door de installer.
 
 Er is een Slint-pakket voor elke ondersteunde Slackware-editie (Slackware
 13.37, Slackware 14.0 en Slackware 14.1) in directory
-https://slint.fr/packages[packages/]. Dit pakket kan worden geïnstalleerd op
+https://slint-ng.org/packages[packages/]. Dit pakket kan worden geïnstalleerd op
 zowel 32 als 64-bit versies. Om 'Slintpakket' te verkrijgen, controleren en
 installeren of upgraden (voor Slackware 14.1 bijvoorbeeld) doe je:
 
 ----
-wget -r -l1 -np -nd -A slint-14.1*  https://slint.fr/packages/ # je krijgt dan het meest recente Slint-pakket met bijbehorend md5-bestand
+wget -r -l1 -np -nd -A slint-14.1*  https://slint-ng.org/packages/ # je krijgt dan het meest recente Slint-pakket met bijbehorend md5-bestand
 md5sum -c slint-14.1*md5 # resultaat moet "OK" zijn, anders is het gedownloade bestand beschadigd
 su - # verkrijg root privileges
 upgradepkg --install-new --reinstall slint-14.1*txz # dit commando installeert of upgrade het pakket
@@ -42,7 +42,7 @@ Momenteel zijn de volgende talen beschikbaar: Frans, Duits, Pools, Portugees
 (Braziliaans), Russisch, Spaans (Latijns-Amerikaans) en Oekraïens.
 
 Sommige man pages zijn ook vertaald, zoals aangegeven in
-https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT].
+https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT].
 
 Zie de tabel hieronder voor de anderstalige beheertools en hun functie.
 

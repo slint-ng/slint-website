@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: slintwebsite\n"
 "POT-Creation-Date: 2015-01-31 18:18+0100\n"
 "PO-Revision-Date: 2015-01-31 17:21+0000\n"
-"Last-Translator: Didier Spaier <didier@slint.fr>\n"
+"Last-Translator: Didier Spaier <didier@slint-ng.org>\n"
 "Language-Team: Serbian (Serbia) (http://www.transifex.com/projects/p/slintwebsite/language/sr_RS/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #.  Before translating this file, please read instructions about it in
-#. https://slint.fr/contribute.html and https://slint.fr/tools.html. Copy this
+#. https://slint-ng.org/contribute.html and https://slint-ng.org/tools.html. Copy this
 #. comment verbatim in your translation or just the leading // to tell it's a
 #. comment that won't be included in generated html file.
 #. type: Title =
@@ -65,7 +65,7 @@ msgstr ""
 msgid ""
 "A Slint package is provided for each supported Slackware edition (Slackware "
 "13.37, Slackware 14.0 and Slackware 14.1) in directory "
-"https://slint.fr/packages[packages/]. The same package can be installed on 32"
+"https://slint-ng.org/packages[packages/]. The same package can be installed on 32"
 " bit and 64 versions. To get, check and install (or upgrade) 'Slint package'"
 " (for Slackware 14.1 in this example), do this:"
 msgstr ""
@@ -74,7 +74,7 @@ msgstr ""
 #: package.en.txt:22
 #, no-wrap
 msgid ""
-"wget -r -l1 -np -nd -A slint-14.1*  https://slint.fr/packages/ # you will get the most recent Slint package and its associated md5 file\n"
+"wget -r -l1 -np -nd -A slint-14.1*  https://slint-ng.org/packages/ # you will get the most recent Slint package and its associated md5 file\n"
 "md5sum -c slint-14.1*md5 # answer should be \"OK\", else downloaded package is corrupt\n"
 "su # get root's privileges\n"
 "upgradepkg --install-new --reinstall slint-14.1*txz # this command installs or upgrade the package\n"
@@ -110,7 +110,7 @@ msgstr ""
 #: package.en.txt:35
 msgid ""
 "Some manual pages are also translated to other languages, as indicated in "
-"https://slint.fr/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]."
+"https://slint-ng.org/packages/MAN_PAGES.TXT[MAN_PAGES.TXT]."
 msgstr ""
 
 #. type: Plain text

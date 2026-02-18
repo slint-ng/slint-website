@@ -7,14 +7,14 @@ manual para Slackware.
 
 Um 'terminal de Braille' também pode ser utilizado para instalar e depois
 pilotar o sistema. As instruções de utilização estão disponíveis em
-https://slint.fr/docs/README_BRLTTY.
+https://slint-ng.org/docs/README_BRLTTY.
 
 == Transfira e verifique o instalador da imagem ISO
 Dois tamanhos de imagens ISO estão disponíveis:
 
 * O http://sourceforge.net/projects/slint/files/[DVD + USB imagens ISO
   completas] contêm tudo o que você precisa para instalar o Slackware.
-* O https://slint.fr/installers[CD + USB imagens ISO pequenas] precisam de ser
+* O https://slint-ng.org/installers[CD + USB imagens ISO pequenas] precisam de ser
   completadas por uma media que contém os pacotes do Slackware, por exemplo,
   um DVD do Slackware.
 

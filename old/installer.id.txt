@@ -7,14 +7,14 @@ dan halaman manual untuk Slackware.
 
 A 'Braille terminal' can also be used to install then pilot the
 system. Instructions for use are available in
-https://slint.fr/docs/README_BRLTTY.
+https://slint-ng.org/docs/README_BRLTTY.
 
 == Unduh dan perikasan ISO image pemasang
 Two sizes of ISO images are available:
 
 * The http://sourceforge.net/projects/slint/files/[DVD + USB full ISO images]
   contain all you need to install Slackware.
-* The https://slint.fr/installers[CD + USB small ISO images] need to be
+* The https://slint-ng.org/installers[CD + USB small ISO images] need to be
   completed by a media containing the Slackware packages, for instance a
   Slackware DVD.
 

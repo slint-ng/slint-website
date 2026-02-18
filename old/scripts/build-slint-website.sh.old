@@ -1,6 +1,6 @@
 #!/bin/sh
 
-LOCAL_MIRROR=~/slint.fr
+LOCAL_MIRROR=~/slint-ng.org
 write_pages() {
   for i in `ls ${page}*txt`; do
     CONF_FILE=slint.conf.en
@@ -12,7 +12,7 @@ write_pages() {
     echo "Page ${page}.${ll}.txt processed"
     echo "Page ${page}.${ll}.txt processed" >> wip/list
     asciidoc -b xhtml11 -a icons -f $CONF_FILE -o $ll/${page}.html ${page}.${ll}.txt
-    sed -i  's|<head>|<head><base href="https://slint.fr/" />|' $ll/${page}.html
+    sed -i  's|<head>|<head><base href="https://slint-ng.org/" />|' $ll/${page}.html
     sed -i 's|./asciidoc.css|asciidoc.css|' $ll/${page}.html
     sed -i 's|./slint.css|slint.css|' $ll/${page}.html
     sed -i 's|./images|images|' $ll/${page}.html
@@ -55,7 +55,7 @@ cat wip/list|wc -l
 rm -f wip/list
 echo '<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' > sitemap.xml
-find -name *html|sed 's|.|https://slint.fr|'|awk '{print "<url>\n<loc>" $0 "</loc>\n</url>"}' >> sitemap.xml
+find -name *html|sed 's|.|https://slint-ng.org|'|awk '{print "<url>\n<loc>" $0 "</loc>\n</url>"}' >> sitemap.xml
 echo "</urlset>" >> sitemap.xml
 )
 

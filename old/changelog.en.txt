@@ -1,6 +1,6 @@
 == Changelog
 
-NOTE: The Changelog retracing changes that occurred before 27/09/2014 is https://slint.fr/pub/slint-history/Changelog.txt[here].
+NOTE: The Changelog retracing changes that occurred before 27/09/2014 is https://slint-ng.org/pub/slint-history/Changelog.txt[here].
 
 [format="psv",options="header,autowidth"]
 |========

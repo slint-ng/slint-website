@@ -80,7 +80,7 @@ http://slackbuilds.org[SlackBuilds.org].
 
 Цей стиснений архів містить усе необхідне для створення продуктів slint, як
 й інструменти для учасників slint. Він зветься slint-[дата].tar.xz і
-знаходиться в каталозі https://slint.fr/pub[pub/].
+знаходиться в каталозі https://slint-ng.org/pub[pub/].
 
 Аби розпакувати його, наберіть:
 
@@ -101,7 +101,7 @@ http://slackbuilds.org[SlackBuilds.org].
 |build/slintLocales |Створює пакунок, що містить усі оновлені переклади сценаріїв Slackware, що входять до інсталяторів Slint (усіх версій) або інструментів для Slackware.
 |tools_for_translators/toolbox.sh |Цей сценарій керує перекладами повідомлень, зібраних у slackware.pot.
 |tools_for_translators/toolbox_slint_sh |Цей сценарій керує перекладами повідомлень, що виводяться сценарієм slint.sh .
-|tools_for_translators/generate_man_pages |Створює перекладені сторінки керівництв для різних інструментів Slackware. Дозволяє перевіряти PO-файли. Використання цього сценарію потребує встановленого пакунку po4a, доступного у каталозі https://slint.fr/packages/extra[extra/].
+|tools_for_translators/generate_man_pages |Створює перекладені сторінки керівництв для різних інструментів Slackware. Дозволяє перевіряти PO-файли. Використання цього сценарію потребує встановленого пакунку po4a, доступного у каталозі https://slint-ng.org/packages/extra[extra/].
 |========
  
 === Як перевіряти переклади встановника Slackware та сценаріїв адміністратора
@@ -269,12 +269,12 @@ WARNING: Для уникнення плутанини з кодами форма
 Ви легко можете перевірити, як виглядає сторінка, створена з Вашого
 перекладу. Просто виконайте це:
 ----
-lftp -c "mirror https://slint.fr/website/"
+lftp -c "mirror https://slint-ng.org/website/"
 Завантажте Ваш переклад із Transifex (дамо йому ім’я <translation.txt>) до каталоґу website, створений попередньою командою
 cd website
 CONFIG_FILE=slint.conf.en
 # Необов'язково, якщо заголовок та меню, перекладені Вашою мовою, завантажено на веб-сайт:
-wget https://slint.fr/slint.conf.ll; CONFIG_FILE=slint.conf.ll # заміна «ll» на код Вашої мови (дві літери)
+wget https://slint-ng.org/slint.conf.ll; CONFIG_FILE=slint.conf.ll # заміна «ll» на код Вашої мови (дві літери)
 # потім створіть веб-сторінку
 asciidoc -b xhtml11 -a icons -f $CONFIG_FILE <translation.txt> # ця команда створить <translation.html>
 firefox <translation.html> &

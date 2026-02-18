@@ -2,7 +2,7 @@ RewriteEngine On
 
 # Gestion du cookie lang à partir du paramètre lang dans l'URL
 RewriteCond %{QUERY_STRING} lang=(fr|en) [NC]
-RewriteRule ^ - [CO=lang:%1:.slint.fr:1440:/]
+RewriteRule ^ - [CO=lang:%1:.slint-ng.org:1440:/]
 
 # On ne redirige que si l'URL ne commence pas par une langue (fr ou en)
 RewriteCond %{REQUEST_URI} !^/(fr|en)/

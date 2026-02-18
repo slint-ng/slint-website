@@ -1,16 +1,16 @@
-// Before translating this file, please read instructions about it in https://slint.fr/contribute.html and https://slint.fr/tools.html. Copy this comment verbatim in your translation or just the leading // to tell it's a comment that won't be included in generated html file.
+// Before translating this file, please read instructions about it in https://slint-ng.org/contribute.html and https://slint-ng.org/tools.html. Copy this comment verbatim in your translation or just the leading // to tell it's a comment that won't be included in generated html file.
 
 = Slint installer
 
 Slint installer allows you to use your prefered language during installation, and add translated administration tools and manual pages to Slackware.
 
-A 'Braille terminal' can also be used to install then pilot the system. Instructions for use are available in https://slint.fr/docs/README_BRLTTY.
+A 'Braille terminal' can also be used to install then pilot the system. Instructions for use are available in https://slint-ng.org/docs/README_BRLTTY.
 
 == Download and check installer's ISO image
 Two sizes of ISO images are available:
 
 * The http://sourceforge.net/projects/slint/files/[DVD + USB full ISO images] contain all you need to install Slackware.
-* The https://slint.fr/installers[CD + USB small ISO images] need to be completed by a media containing the Slackware packages, for instance a Slackware DVD.
+* The https://slint-ng.org/installers[CD + USB small ISO images] need to be completed by a media containing the Slackware packages, for instance a Slackware DVD.
 
 To download a full ISO image, first click on its version number, for instance 14.1.
 

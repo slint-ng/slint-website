@@ -5,7 +5,7 @@ contain the brltty software, allowing blind users to use them, then use the
 installed system, through a Braille terminal.
 
 The "small" hybrid (USB or CD) images of the Slint installers
-(version 14.1) are available in http://slint.fr/installers alongside their
+(version 14.1) are available in http://slint-ng.org/installers alongside their
 respective md5 checksum files. They don't include the Slackware packages.
 Reminder: only the version 14.1 (32 and 64 bit) ships brltty.
 
@@ -13,7 +13,7 @@ The  "full" hybrid (USB or DVD) ISO images (including all Slackware packages)
 are available here: http://sourceforge.net/projects/slint/files/14.1/
 
 General instructions for use of all the installer images are in:
-http://slint.fr/installer.html
+http://slint-ng.org/installer.html
 
 You can check the integrity of theses "full" ISO images  with their md5
 or sha1 checksums:
@@ -51,7 +51,7 @@ Also, if you plug in a Braille terminal connected through USB when the
 system is running, it should become operational as relevant udev rules
 should launch a brltty daemon with the proper driver.
 
-You can consult the Slint website @ http://slint.fr to know more.
+You can consult the Slint website @ http://slint-ng.org to know more.
 
 A comprehensive manual for brltty is available in English, French and
 Portuguese in several formats including plain text (txt) at this URL:

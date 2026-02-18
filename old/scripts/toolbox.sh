@@ -18,7 +18,7 @@ if [ $UID -eq 0 ]; then
   exit
 fi
 TMP=$(mktemp -d)
-ROOT=~/slint.fr
+ROOT=~/slint-ng.org
 TARGET=$ROOT/po
 TRANSLATIONS=~/MYENV/slintwebsite/translations
 LOCALES=$(cat locales.txt)
@@ -154,7 +154,7 @@ has been generated." >>$TMP/foutput
   fi
 }
 # Main
-while [ 0 ]; do
+while false; do
   dialog --title " Slint Website Toolbox " \
   --menu "Which option would you like?" 13 76 8 \
 "make_POT" "Generate a new POT file" \

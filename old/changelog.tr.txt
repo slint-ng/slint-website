@@ -1,7 +1,7 @@
 == Değişiklik Listesi
 
 NOTE: 27/09/2014 tarihinden önceki tüm değişlikleri gösteren Değişiklik Listesi
-https://slint.fr/pub/slint-history/Changelog.txt[buradan] görülebilir.
+https://slint-ng.org/pub/slint-history/Changelog.txt[buradan] görülebilir.
 
 [format="psv", options="header,autowidth"]
 |========

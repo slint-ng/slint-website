@@ -79,7 +79,7 @@ seçiniz.
 
 Bu sıkıştırılmış arşiv slint ürünleri inşasında gerekli olan herşeyin
 yanında slint katkı vericileri için araçlar da bulunur. slint-[date].tar.xz
-ismindedir ve https://slint.fr/pub[pub/] dizini içinde bulunur.
+ismindedir ve https://slint-ng.org/pub[pub/] dizini içinde bulunur.
 
 Paketi açmak için yazınız:
 
@@ -99,7 +99,7 @@ betikleri ve çevirmenlerin kullanımı için araçları listeler.
 |build/slintLocales |Slint kurucular (tüm sürümler) içindeki Slackware betiklerinin ya da Slackware için olan araçların içindeki tüm güncel çevirilerini yapar. 
 |tools_for_translators/toolbox.sh |Bu araç kutusu slackware.pot içinden elde edilen mesajların çevirilmesini yönetir.
 |tools_for_translators/toolbox_slint_sh |Bu araç kutusu script slint.sh çıktısı olan mesajların çevirilmesini yönetir.
-|tools_for_translators/generate_man_pages |Slackware de bazı araçlar için yerelleştirilmiş kılavuz sayları üretir. Bu PO dosyalarını denetlemenizi sağlar. Bu betiğin kullanımı için https://slint.fr/packages/extra[extra/] dizini içinde bulunan po4a paketi kurulu olmalıdır. 
+|tools_for_translators/generate_man_pages |Slackware de bazı araçlar için yerelleştirilmiş kılavuz sayları üretir. Bu PO dosyalarını denetlemenizi sağlar. Bu betiğin kullanımı için https://slint-ng.org/packages/extra[extra/] dizini içinde bulunan po4a paketi kurulu olmalıdır. 
 |========
  
 === Slackware'in kurucusu ve yönetim betikleri nasıl denetlenir
@@ -265,12 +265,12 @@ simgee tıklayarak) sonra düzenlemenizi tavsiye ediyoruz.
 Bir metin dosyası kaynağı çevirinizden üretilen web sayfalarının birleşimi
 kolayca denetlenebilir. Sadece şunu yapun:
 ----
-lftp -c "mirror https://slint.fr/website/"
+lftp -c "mirror https://slint-ng.org/website/"
 # Çevirinizi Transifex'den (buna <translation.txt> diyeceğiz) oluşturduğunuz website/ dizinine indirin
 cd website
 CONFIG_FILE=slint.conf.en
 # Seçimlik olarak, üst başlık ve dilinize çevirilmiş menü web sayfasına yüklendiyse:
-wget https://slint.fr/slint.conf.ll; CONFIG_FILE=slint.conf.ll # "ll" yerine dil kodunuzu (iki harf) kullanın
+wget https://slint-ng.org/slint.conf.ll; CONFIG_FILE=slint.conf.ll # "ll" yerine dil kodunuzu (iki harf) kullanın
 # sonra web sayfasını üretin
 asciidoc -b xhtml11 -a icons -f $CONFIG_FILE <translation.txt> # bu komut <translation.html> dosyasını üretir
 firefox <translation.html> &

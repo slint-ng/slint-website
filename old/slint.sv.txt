@@ -41,7 +41,7 @@ göra bootbara installationsprogram:
 
 * http://sourceforge.net/projects/slint/files/[DVD + USB full ISO-avbilder]
   innehåller allt du behöver för att installera Slackware.
-* https://slint.fr/installers[CD + USB små ISO-avbilder] måste kompletteras med
+* https://slint-ng.org/installers[CD + USB små ISO-avbilder] måste kompletteras med
   ett medium som innehåller Slackwarepaket, exempelvis en Slackware DVD.
 
 See page link:installer.html[Slint installer] to know how to download the
@@ -49,10 +49,10 @@ image, put it on a DVD or USB stick and use it.
 
 A Braille terminal can also be used to install then pilot the
 system. Instructions for use are available in
-https://slint.fr/docs/README_BRLTTY.
+https://slint-ng.org/docs/README_BRLTTY.
 
 .Internationalisera din äkta Slackware eller uppgradera översättnings verktyg (åter)installerar ett "Slint paketet" 
-Slint paketen finns i katalogen https://slint.fr/packages[packages/]. Se
+Slint paketen finns i katalogen https://slint-ng.org/packages[packages/]. Se
 sidan link:package.html[Slint paket] för att veta hur man installera ett
 Slint paket för din Slackware utgåva och vad du får för dina pengar:-)
 

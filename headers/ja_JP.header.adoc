@@ -9,12 +9,12 @@
 [.liens]
 --
 [.mainmen]
-* link:../jp/home.html[ホーム]
-* link:../jp/HandBook.html[ドキュメント 15.0]
-* link:../jp/news.html[ニュース]
+* link:../ja/home.html[ホーム]
+* link:../ja/HandBook.html[ドキュメント 15.0]
+* link:../ja/news.html[ニュース]
 * https://slackware.uk/slint/x86_64/slint-15.0/iso/[ダウンロード]
-* link:../jp/support.html[サポート]
+* link:../ja/support.html[サポート]
 * link:../doc/translate_slint.html[翻訳する]
-* link:../jp/wiki.html[ウィキ]
+* link:../ja/wiki.html[ウィキ]
 
 [.langmen]

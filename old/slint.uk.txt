@@ -39,7 +39,7 @@ Slackware https://store.slackware.com/cgi-bin/store[фінансово].
 
 * http://sourceforge.net/projects/slint/files/[DVD + USB повні ISO образи]
   включають в себе, усе що треба, для встановлення Slackware.
-* https://slint.fr/installers[CD + USB невеликі ISO образи] потрібні, для
+* https://slint-ng.org/installers[CD + USB невеликі ISO образи] потрібні, для
   доповнення носія з пакунками Slackware, наприклад для Slackware DVD.
 
 Дивіться сторінку link:installer.html[Slint installer], щоб взнати як
@@ -47,11 +47,11 @@ Slackware https://store.slackware.com/cgi-bin/store[фінансово].
 
 Термінал Брайля можливо використовувати для встановлення і керування
 системою. Інструкції з використання доступні в
-https://slint.fr/docs/README_BRLTTY.
+https://slint-ng.org/docs/README_BRLTTY.
 
 .Інтернаціоналізувати вашу оригінальну Slacwkare чи оновити інструменти перекладу 'пакунок Slint'
 Пакунки Slint розташовані у директорії
-https://slint.fr/packages[пакунки/]. Дивіться сторінку
+https://slint-ng.org/packages[пакунки/]. Дивіться сторінку
 link:package.html[Пакунок Slint] щоб дізнатись як встановити Slint для вашої
 версії Slackware, та розуміти що ви отримуєте за свої грощі :-)
 

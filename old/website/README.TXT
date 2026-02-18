@@ -2,7 +2,7 @@ This directory's content will help you check the rendering of a web page
 generated from your translation of a source text file in AsciiDoc format.
 
 1) Download this directory and its content
-     lftp -c "mirror https://slint.fr/website/"
+     lftp -c "mirror https://slint-ng.org/website/"
    This whill create the directory "website"
 2) Copy to "website" the file you want to check, for instance "translation.txt":
      cp translation.txt website

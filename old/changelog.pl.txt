@@ -1,7 +1,7 @@
 == Changelog
 
 NOTE: Plik Changelog wyszczególniający zmiany sprzed 27/09/2014 znajduje się
-https://slint.fr/pub/slint-history/Changelog.txt[tutaj].
+https://slint-ng.org/pub/slint-history/Changelog.txt[tutaj].
 
 [format="psv", options="header,autowidth"]
 |========

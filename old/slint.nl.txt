@@ -41,7 +41,7 @@ opstart-installers:
 
 * De http://sourceforge.net/projects/slint/files/[DVD + USB volledige ISO
   images] met alles nodig voor een volledige Slackware-installatie.
-* De https://slint.fr/installers[CD + USB mini ISO images] welke moeten worden
+* De https://slint-ng.org/installers[CD + USB mini ISO images] welke moeten worden
   aangevuld met media met de Slackware-pakketten, bijvoorbeeld een Slackware
   DVD.
 
@@ -51,10 +51,10 @@ en hoe het te gebruiken.
 
 Een Braille terminal kan eveneens worden gebruikt voor het installeren en
 daarna besturen van het systeem. GebruiksInstructies staan in
-https://slint.fr/docs/README_BRLTTY.
+https://slint-ng.org/docs/README_BRLTTY.
 
 .Internationaliseer je orginele Slackware of upgrade vertaal-tools door het (her)installeren van een 'Slint-pakket'
-Slint-pakketten staan in directory https://slint.fr/packages[packages/]. Zie
+Slint-pakketten staan in directory https://slint-ng.org/packages[packages/]. Zie
 pagina link:package.html[Slint-pakket] hoe je een Slint-pakket voor jouw
 Slackware-versie installeert en wat je krijgt voor je geld :-)
 

@@ -47,7 +47,7 @@ In Edit => Preferences => Editor, check 'Automatic spell checking' and, as with 
 
 == Usage of scripts included in Slint's tarball
 
-This compressed archive includes all that is needed to build slint products as well as tools intended for slint contributors. It is named slint-[date].tar.xz and provided in directory https://slint.fr/pub[pub/].
+This compressed archive includes all that is needed to build slint products as well as tools intended for slint contributors. It is named slint-[date].tar.xz and provided in directory https://slint-ng.org/pub[pub/].
 
 To unpack it, type:
 

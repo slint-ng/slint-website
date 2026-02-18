@@ -1,7 +1,7 @@
 == Journal de bord
 
 NOTE: Le journal de bord retraçant les modifications antérieures au 27/09/2014 se
-trouve https://slint.fr/pub/slint-history/Changelog.txt[ici].
+trouve https://slint-ng.org/pub/slint-history/Changelog.txt[ici].
 
 [format="psv", options="header,autowidth"]
 |========
