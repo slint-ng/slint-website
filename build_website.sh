@@ -51,6 +51,31 @@ web_lang_dir() {
 	esac
 }
 
+patch_homepage_maintainer() {
+	homeFile="$1"
+	[ -f "$homeFile" ] || return 0
+	sed -i \
+	-e "s@Maintainer: Didier Spaier\\.@Maintainer: Tony Seth and the Slint team.@g" \
+	-e "s@Mainteneur : Didier Spaier\\.@Mainteneur : Tony Seth et l'équipe Slint.@g" \
+	-e "s@Entwickler: Didier Spaier\\.@Entwickler: Tony Seth und das Slint-Team.@g" \
+	-e "s@Συντηρητής: Didier Spaier\\.@Συντηρητής: Tony Seth και η ομάδα Slint.@g" \
+	-e "s@Manutentore: Didier Spaier\\.@Manutentore: Tony Seth e il team Slint.@g" \
+	-e "s@Onderhouden door Didier Spaier\\.@Onderhouden door Tony Seth en het Slint-team.@g" \
+	-e "s@Criador e responsável: Didier Spaier\\.@Criador e responsável: Tony Seth e a equipe Slint.@g" \
+	-e "s@Сопровождающий: Didier Spaier\\.@Сопровождающий: Tony Seth и команда Slint.@g" \
+	-e "s@Underhållare: Didier Spaier\\.@Underhållare: Tony Seth och Slint-teamet.@g" \
+	"$homeFile"
+}
+
+patch_legacy_contacts() {
+	htmlFile="$1"
+	[ -f "$htmlFile" ] || return 0
+	sed -i \
+	-e "s|dididieratslintdotfr|slint@freelists.org|g" \
+	-e "s|didieratslintdotfr|slint@freelists.org|g" \
+	"$htmlFile"
+}
+
 rm -rf "$CWD"/slint-translations
 if [ -d "$TRANSLATIONS_LOCAL_CLONE" ]; then
 	cp -r "$TRANSLATIONS_LOCAL_CLONE" "$CWD"/slint-translations || exit 1
@@ -184,18 +209,21 @@ feed_HandBook14_2_1 () {
 		copycss="$CWD"/css/slint.css -D "$WIP" -a doctype=book "$i" -o bof
 		sed 's@<p><a@<a@;s@</a></p>@</a>@;/langmen/s@.*@<p></p>\n&@;/"toc"/s@.*@<p></p>\n&@' \
 		"$WIP"/bof > "$WIP"/html/"$ll"/HandBook.html
+		patch_legacy_contacts "$WIP"/html/"$ll"/HandBook.html
 				if [ "$ll_TT" = "pt_BR" ]; then
 			asciidoctor -a stylesdir=../css -a stylesheet=slint.css -a linkcss -a \
 			copycss="$CWD/css/slint.css" -D "$WIP" -a doctype=book \
 			"${ll_TT}.oldHandBook.adoc" -o "$WIP"/html/"$ll_TT"/oldHandBook.html
 			sed -i 's@<p><a@<a@;s@</a></p>@</a>@;/langmen/s@.*@<p></p>\n&@;/"toc"/s@.*@<p></p>\n&@' \
 			"$WIP"/html/"$ll_TT"/oldHandBook.html
+			patch_legacy_contacts "$WIP"/html/"$ll_TT"/oldHandBook.html
 		else
 			asciidoctor -a stylesdir=../css -a stylesheet=slint.css -a linkcss -a \
 			copycss="$CWD/css/slint.css" -D "$WIP" -a doctype=book \
 			"${ll_TT}.oldHandBook.adoc" -o "$WIP"/html/"$ll"/oldHandBook.html
 			sed -i 's@<p><a@<a@;s@</a></p>@</a>@;/langmen/s@.*@<p></p>\n&@;/"toc"/s@.*@<p></p>\n&@' \
 			"$WIP"/html/"$ll"/oldHandBook.html
+			patch_legacy_contacts "$WIP"/html/"$ll"/oldHandBook.html
 		fi
 	done
 }	
@@ -215,6 +243,7 @@ feed_HandBook() {
 		copycss="$CWD"/css/slint.css -D "$WIP" -a doctype=book "$i" -o bof
 		sed 's@<p><a@<a@;s@</a></p>@</a>@;/langmen/s@.*@<p></p>\n&@;/"toc"/s@.*@<p></p>\n&@' \
 		"$WIP"/bof > "$WIP"/html/"$ll"/HandBook.html
+		patch_legacy_contacts "$WIP"/html/"$ll"/HandBook.html
 	done
 	)
 }
@@ -242,6 +271,7 @@ feed_support() {
 		-D "$WIP" -a doctype=book "$WIP/${ll_TT}.support.adoc" -o bof
 		sed 's@<p><a@<a@;s@</a></p>@</a>@;/langmen/s@.*@<p></p>\n&@;/"toc"/s@.*@<p></p>\n&@' \
 		"$WIP"/bof > "$WIP"/html/"$ll"/support.html
+		patch_legacy_contacts "$WIP"/html/"$ll"/support.html
 	done
 	)
 }
@@ -268,12 +298,13 @@ feed_homepage() {
 		fi
 		mv bif "$i"
 		mkdir -p "$WIP"/html/"$ll"
-		asciidoctor -a stylesdir=../css -a stylesheet=slint.css -a linkcss -a \
-		copycss="$CWD"/css/slint.css -D "$WIP" -a doctype=book "$i" -o bof
-		sed 's@<p><a@<a@;s@</a></p>@</a>@;/langmen/s@.*@<p></p>\n&@;/"toc"/s@.*@<p></p>\n&@' \
-		"$WIP"/bof > "$WIP"/html/"$ll"/home.html
-	done
-	)
+			asciidoctor -a stylesdir=../css -a stylesheet=slint.css -a linkcss -a \
+			copycss="$CWD"/css/slint.css -D "$WIP" -a doctype=book "$i" -o bof
+			sed 's@<p><a@<a@;s@</a></p>@</a>@;/langmen/s@.*@<p></p>\n&@;/"toc"/s@.*@<p></p>\n&@' \
+			"$WIP"/bof > "$WIP"/html/"$ll"/home.html
+			patch_homepage_maintainer "$WIP"/html/"$ll"/home.html
+		done
+		)
 }
 
 feed_news() {
@@ -340,9 +371,11 @@ header_wiki
 feed_wiki
 # If a page is not translated for a language, publish a fallback.
 # Prefer pt for pt_BR, else fallback to English.
-for langDir in "$WIP"/html/*; do
-	[ -d "$langDir" ] || continue
-	lang="$(basename "$langDir")"
+for headerPath in "$CWD"/headers/*.header.adoc; do
+	llTT="$(basename "$headerPath" .header.adoc)"
+	lang="$(web_lang_dir "$llTT")"
+	langDir="$WIP"/html/"$lang"
+	mkdir -p "$langDir"
 	for page in home news support wiki; do
 		target="$langDir/$page.html"
 		if [ ! -f "$target" ]; then
