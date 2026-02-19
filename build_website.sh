@@ -73,10 +73,10 @@ patch_homepage_packages_link() {
 	sed -i \
 	-e "s|http://slackware.uk/slint/x86_64/slint-15.0/slint.txt|https://slackware.uk/slint/|g" \
 	-e "s|https://slackware.uk/slint/x86_64/slint-15.0/slint.txt|https://slackware.uk/slint/|g" \
-	-e "s|http://slackware.uk/slint/x86_64/slint-15.0/extra.txt|https://slint-ng.org/packages/|g" \
-	-e "s|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|https://slint-ng.org/packages/|g" \
-	-e "s|http://slackware.se/slint/x86_64/slint-15.0/extra.txt|https://slint-ng.org/packages/|g" \
-	-e "s|https://slackware.se/slint/x86_64/slint-15.0/extra.txt|https://slint-ng.org/packages/|g" \
+	-e "s|http://slackware.uk/slint/x86_64/slint-15.0/extra.txt|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|g" \
+	-e "s|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|g" \
+	-e "s|http://slackware.se/slint/x86_64/slint-15.0/extra.txt|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|g" \
+	-e "s|https://slackware.se/slint/x86_64/slint-15.0/extra.txt|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|g" \
 	"$homeFile"
 }
 
@@ -422,10 +422,10 @@ cat > "$WIP/html/index.html" <<EOF
 <head>
   <meta charset="utf-8">
   <title>Slint</title>
-  <meta http-equiv="refresh" content="0; url=./$DEFAULT_LANG/home.html">
+  <meta http-equiv="refresh" content="0; url=/$DEFAULT_LANG/home.html">
 </head>
 <body>
-  <p>Redirecting to <a href="./$DEFAULT_LANG/home.html">$DEFAULT_LANG/home.html</a>.</p>
+  <p>Redirecting to <a href="/$DEFAULT_LANG/home.html">/$DEFAULT_LANG/home.html</a>.</p>
 </body>
 </html>
 EOF
