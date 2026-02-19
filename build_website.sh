@@ -73,10 +73,10 @@ patch_homepage_packages_link() {
 	sed -i \
 	-e "s|http://slackware.uk/slint/x86_64/slint-15.0/slint.txt|https://slackware.uk/slint/|g" \
 	-e "s|https://slackware.uk/slint/x86_64/slint-15.0/slint.txt|https://slackware.uk/slint/|g" \
-	-e "s|http://slackware.uk/slint/x86_64/slint-15.0/extra.txt|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|g" \
-	-e "s|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|g" \
-	-e "s|http://slackware.se/slint/x86_64/slint-15.0/extra.txt|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|g" \
-	-e "s|https://slackware.se/slint/x86_64/slint-15.0/extra.txt|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|g" \
+	-e "s|http://slackware.uk/slint/x86_64/slint-15.0/extra.txt|https://slackware.uk/slint/x86_64/slint-15.0/packages/|g" \
+	-e "s|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|https://slackware.uk/slint/x86_64/slint-15.0/packages/|g" \
+	-e "s|http://slackware.se/slint/x86_64/slint-15.0/extra.txt|https://slackware.uk/slint/x86_64/slint-15.0/packages/|g" \
+	-e "s|https://slackware.se/slint/x86_64/slint-15.0/extra.txt|https://slackware.uk/slint/x86_64/slint-15.0/packages/|g" \
 	"$homeFile"
 }
 
