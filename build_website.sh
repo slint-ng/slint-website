@@ -67,6 +67,15 @@ patch_homepage_maintainer() {
 	"$homeFile"
 }
 
+patch_homepage_packages_link() {
+	homeFile="$1"
+	[ -f "$homeFile" ] || return 0
+	sed -i \
+	-e "s|http://slackware.uk/slint/x86_64/slint-15.0/slint.txt|https://slackware.uk/slint/|g" \
+	-e "s|https://slackware.uk/slint/x86_64/slint-15.0/slint.txt|https://slackware.uk/slint/|g" \
+	"$homeFile"
+}
+
 patch_legacy_contacts() {
 	htmlFile="$1"
 	[ -f "$htmlFile" ] || return 0
@@ -313,6 +322,7 @@ feed_homepage() {
 			sed 's@<p><a@<a@;s@</a></p>@</a>@;/langmen/s@.*@<p></p>\n&@;/"toc"/s@.*@<p></p>\n&@' \
 			"$WIP"/bof > "$WIP"/html/"$ll"/home.html
 			patch_homepage_maintainer "$WIP"/html/"$ll"/home.html
+			patch_homepage_packages_link "$WIP"/html/"$ll"/home.html
 		done
 		)
 }
