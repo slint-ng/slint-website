@@ -279,8 +279,6 @@ feed_support() {
 	langs="$(find . -name  "*adoc"|sed 's#..##'|cut -d_ -f1)"
 	find . -name "*.adoc"|sed 's#..##'|while read -r i; do
 		ll_TT="${i%.*.*}"
-		cat "$TMP/headers/${ll_TT}.header.adoc" "$i" > bif
-		mv bif "$i"
 		ll="$(web_lang_dir "$ll_TT")"
 		# We convert the headers level 2 of the HandBook to level 1 in Support
 		# hence s@===@==@
