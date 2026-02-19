@@ -73,6 +73,10 @@ patch_homepage_packages_link() {
 	sed -i \
 	-e "s|http://slackware.uk/slint/x86_64/slint-15.0/slint.txt|https://slackware.uk/slint/|g" \
 	-e "s|https://slackware.uk/slint/x86_64/slint-15.0/slint.txt|https://slackware.uk/slint/|g" \
+	-e "s|http://slackware.uk/slint/x86_64/slint-15.0/extra.txt|https://slint-ng.org/packages/|g" \
+	-e "s|https://slackware.uk/slint/x86_64/slint-15.0/extra.txt|https://slint-ng.org/packages/|g" \
+	-e "s|http://slackware.se/slint/x86_64/slint-15.0/extra.txt|https://slint-ng.org/packages/|g" \
+	-e "s|https://slackware.se/slint/x86_64/slint-15.0/extra.txt|https://slint-ng.org/packages/|g" \
 	"$homeFile"
 }
 
@@ -444,6 +448,9 @@ cp -r "$CWD"/css "$WIP"/html
 find "$WIP"/html -type f -name "*.html" | while read -r htmlFile; do
 	patch_footer_github_link "$htmlFile"
 done
+# Publish the archived old website so links do not fall into the refresh fallback.
+mkdir -p "$WIP"/html/old
+rsync -a "$CWD"/old/ "$WIP"/html/old/ || exit 1
 rm -rf "$WEBSITE_DIR"
 mkdir -p "$WEBSITE_DIR"
 rsync --verbose -avP -H --delete-after "$CWD"/wip/html/ "$WEBSITE_DIR"/ || exit 1
